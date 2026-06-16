@@ -27,9 +27,17 @@ const POS_DEF = {
 function createTeamFromData(t) {
   const tla  = t.tla || (t.name||"").slice(0,3).toUpperCase();
   const rd   = t.restDays || 5;
-  const dflt = ["GK","DF","DF","MF","MF","FW"].map((pos,i) => ({
-    pos, name:`Player ${i+1}`, ...POS_DEF[pos],
-    restDays:rd, load3:240, lastRating:7.0, err3:0, status:"avail", reason:""
+  // 4-3-3 預設 11 人陣容（賽前公佈前的佔位）
+  const LINEUP_433 = [
+    {pos:"GK", label:"GK"},
+    {pos:"DF", label:"RB"}, {pos:"DF", label:"CB"}, {pos:"DF", label:"CB"}, {pos:"DF", label:"LB"},
+    {pos:"MF", label:"CM"}, {pos:"MF", label:"CM"}, {pos:"MF", label:"CAM"},
+    {pos:"FW", label:"RW"}, {pos:"FW", label:"ST"}, {pos:"FW", label:"LW"},
+  ];
+  const dflt = LINEUP_433.map((p, i) => ({
+    pos:p.pos, name:`${p.label} #${i+1}`, ...POS_DEF[p.pos],
+    restDays:rd, load3:240, lastRating:7.0, err3:0, status:"avail", reason:"",
+    _isDefault: true
   }));
   return {
     name:    t.name    || "Unknown",
@@ -46,6 +54,20 @@ function h2hFromMatch(h) {
     w:h.w||0, d:h.d||0, l:h.l||0,
     note:(h.last5||[]).length ? `近 ${(h.last5||[]).length} 次交手紀錄` : "無近期交手紀錄",
   };
+}
+
+// UTC 時間轉台灣時間格式 "MM/DD HH:mm"
+function fmtMatchTime(utcStr) {
+  if (!utcStr) return "";
+  try {
+    const d = new Date(utcStr);
+    const tai = new Date(d.getTime() + 8 * 3600 * 1000); // UTC+8
+    const mm  = String(tai.getUTCMonth() + 1).padStart(2, "0");
+    const dd  = String(tai.getUTCDate()).padStart(2, "0");
+    const hh  = String(tai.getUTCHours()).padStart(2, "0");
+    const min = String(tai.getUTCMinutes()).padStart(2, "0");
+    return `${mm}/${dd} ${hh}:${min}`;
+  } catch(e) { return ""; }
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -1110,19 +1132,30 @@ function App() {
       /*#__PURE__*/React.createElement("span", {
         style: { color: C.mute, fontSize: 11, whiteSpace: "nowrap" }
       }, `📡 今日比賽 ${dataDate}：`),
-      ...liveFixtures.map(fx =>
-        /*#__PURE__*/React.createElement("button", {
+      ...liveFixtures.map(fx => {
+        const isActive = liveMatch && liveMatch.fixture_id === fx.id;
+        const matchTime = fmtMatchTime(fx.date);
+        return /*#__PURE__*/React.createElement("button", {
           key: fx.id,
           onClick: () => loadMatch(fx),
           style: {
-            background: (liveMatch && liveMatch.fixture_id === fx.id) ? C.pitchDim : "transparent",
-            border: `1px solid ${(liveMatch && liveMatch.fixture_id === fx.id) ? C.pitch : C.line}`,
-            color: (liveMatch && liveMatch.fixture_id === fx.id) ? C.chalk : C.mute,
-            padding: "3px 10px", borderRadius: 4, cursor: "pointer",
-            fontSize: 11, transition: "all 0.15s"
+            background: isActive ? C.pitchDim : "transparent",
+            border: `1px solid ${isActive ? C.pitch : C.line}`,
+            color: isActive ? C.chalk : C.mute,
+            padding: "4px 10px", borderRadius: 4, cursor: "pointer",
+            fontSize: 11, transition: "all 0.15s",
+            display: "flex", flexDirection: "column", alignItems: "center", gap: 1,
+            lineHeight: 1.4
           }
-        }, `${fx.home.tla||fx.home.name} vs ${fx.away.tla||fx.away.name}`)
-      ),
+        },
+          /*#__PURE__*/React.createElement("span", {
+            style: { fontSize: 10, color: isActive ? C.pitch : C.mute, fontFamily: "monospace" }
+          }, matchTime || fx.league.code),
+          /*#__PURE__*/React.createElement("span", null,
+            `${fx.home.tla||fx.home.name} vs ${fx.away.tla||fx.away.name}`
+          )
+        );
+      }),
       loadingMatch && /*#__PURE__*/React.createElement("span", {
         style: { color: C.amber, fontSize: 11 }
       }, " ⏳ 載入中…")
@@ -2164,25 +2197,30 @@ function TeamPicker({
       fontSize: 44,
       lineHeight: 1
     }
-  }, team.flag), /*#__PURE__*/React.createElement("select", {
-    value: value,
-    onChange: e => onChange(e.target.value),
+  }, team.flag), /*#__PURE__*/React.createElement("div", {
     style: {
       marginTop: 8,
-      background: C.panel2,
-      color: C.chalk,
-      border: `1px solid ${accent}`,
-      borderRadius: 6,
-      padding: "8px 10px",
-      fontSize: 15,
-      fontWeight: 600,
-      cursor: "pointer",
-      textAlign: align
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 4,
+      justifyContent: align === "right" ? "flex-end" : "flex-start"
     }
-  }, TEAM_KEYS.map(k => /*#__PURE__*/React.createElement("option", {
+  }, TEAM_KEYS.map(k => /*#__PURE__*/React.createElement("button", {
     key: k,
-    value: k
-  }, TEAMS[k].name))), /*#__PURE__*/React.createElement("div", {
+    onClick: () => onChange(k),
+    style: {
+      background: value === k ? accent : C.panel2,
+      color: value === k ? "#0a0f09" : C.chalk,
+      border: `1px solid ${value === k ? accent : C.line}`,
+      borderRadius: 4,
+      padding: "4px 9px",
+      fontSize: 12,
+      fontWeight: value === k ? 700 : 400,
+      cursor: "pointer",
+      transition: "all 0.15s",
+      whiteSpace: "nowrap"
+    }
+  }, `${TEAMS[k].flag} ${TEAMS[k].name}`))), /*#__PURE__*/React.createElement("div", {
     className: "mono",
     style: {
       marginTop: 8,
@@ -2635,7 +2673,12 @@ function Squad({
       color: accent,
       marginBottom: 12
     }
-  }, team.flag, " ", team.name, " \xB7 \u4E3B\u529B\u540D\u55AE"), team.players.map(p => {
+  }, team.flag, " ", team.name, " \xB7 \u4E3B\u529B\u540D\u55AE",
+    team.players.length > 0 && team.players[0]._isDefault &&
+      /*#__PURE__*/React.createElement("span", {
+        style: { fontSize:10, color: C.mute, fontWeight:400, marginLeft:8 }
+      }, "\u2014 \u9810\u8A2D\u9663\u5BB9\uFF0C\u8CFD\u524D\u516C\u4F48\u5F8C\u66F4\u65B0")
+  ), team.players.map(p => {
     const active = sel && sel.name === p.name;
     const fit = computeFit(p);
     const tag = fatigueTag(p);
