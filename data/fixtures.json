@@ -1,86 +1,22 @@
 {
-  "generated_at": "2026-06-15T05:37:24.400833+00:00",
+  "generated_at": "2026-06-16T13:39:00.070119+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-06-15",
-    "2026-06-16"
+    "2026-06-16",
+    "2026-06-17"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 4,
+  "count": 3,
   "fixtures": [
     {
-      "id": 537358,
-      "date": "2026-06-15T02:00:00Z",
+      "id": 537364,
+      "date": "2026-06-16T01:00:00Z",
       "status": "FT",
       "status_text": "FINISHED",
-      "matchday": 1,
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_F",
-      "venue": null,
-      "league": {
-        "code": "WC",
-        "name": "FIFA World Cup",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 792,
-        "name": "Sweden",
-        "tla": "SWE",
-        "logo": "https://crests.football-data.org/792.svg"
-      },
-      "away": {
-        "id": 802,
-        "name": "Tunisia",
-        "tla": "TUN",
-        "logo": "https://crests.football-data.org/tunisia.svg"
-      },
-      "goals": {
-        "home": 5,
-        "away": 1
-      }
-    },
-    {
-      "id": 537369,
-      "date": "2026-06-15T16:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 1,
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_H",
-      "venue": null,
-      "league": {
-        "code": "WC",
-        "name": "FIFA World Cup",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 760,
-        "name": "Spain",
-        "tla": "ESP",
-        "logo": "https://crests.football-data.org/760.svg"
-      },
-      "away": {
-        "id": 1930,
-        "name": "Cape Verde Islands",
-        "tla": "CPV",
-        "logo": "https://crests.football-data.org/cape_verde.svg"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 537363,
-      "date": "2026-06-15T19:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
@@ -92,30 +28,30 @@
         "season": "2026"
       },
       "home": {
-        "id": 805,
-        "name": "Belgium",
-        "tla": "BEL",
-        "logo": "https://crests.football-data.org/805.svg"
+        "id": 840,
+        "name": "Iran",
+        "tla": "IRN",
+        "logo": "https://crests.football-data.org/iran.svg"
       },
       "away": {
-        "id": 825,
-        "name": "Egypt",
-        "tla": "EGY",
-        "logo": "https://crests.football-data.org/825.svg"
+        "id": 783,
+        "name": "New Zealand",
+        "tla": "NZL",
+        "logo": "https://crests.football-data.org/783.svg"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       }
     },
     {
-      "id": 537370,
-      "date": "2026-06-15T22:00:00Z",
+      "id": 537391,
+      "date": "2026-06-16T19:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 1,
       "stage": "GROUP_STAGE",
-      "group": "GROUP_H",
+      "group": "GROUP_I",
       "venue": null,
       "league": {
         "code": "WC",
@@ -124,16 +60,48 @@
         "season": "2026"
       },
       "home": {
-        "id": 801,
-        "name": "Saudi Arabia",
-        "tla": "KSA",
-        "logo": "https://crests.football-data.org/saudi_arabia.svg"
+        "id": 773,
+        "name": "France",
+        "tla": "FRA",
+        "logo": "https://crests.football-data.org/773.svg"
       },
       "away": {
-        "id": 758,
-        "name": "Uruguay",
-        "tla": "URY",
-        "logo": "https://crests.football-data.org/758.svg"
+        "id": 804,
+        "name": "Senegal",
+        "tla": "SEN",
+        "logo": "https://crests.football-data.org/senegal.svg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 537392,
+      "date": "2026-06-16T22:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 1,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_I",
+      "venue": null,
+      "league": {
+        "code": "WC",
+        "name": "FIFA World Cup",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 8062,
+        "name": "Iraq",
+        "tla": "IRQ",
+        "logo": "https://crests.football-data.org/iraq.svg"
+      },
+      "away": {
+        "id": 8872,
+        "name": "Norway",
+        "tla": "NOR",
+        "logo": "https://crests.football-data.org/813.svg"
       },
       "goals": {
         "home": null,
