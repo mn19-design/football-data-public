@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>戰術分析台 / Pitch Read — 足球賽事 AI 分析</title>
+  <meta name="description" content="足球賽事 AI 分析原型：含 xG、最可能比分、大小球、讓分盤、即時體力 FIT 等進階模型。示範資料，非投注建議。" />
+  <meta name="color-scheme" content="dark" />
+  <meta property="og:title" content="戰術分析台 / Pitch Read" />
+  <meta property="og:description" content="足球賽事 AI 分析原型 · xG / 比分 / 大小球 / 讓分盤 / 即時體力模型" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" />
+  <style>
+    html, body { margin: 0; padding: 0; background: #10140F; }
+    #root { min-height: 100vh; }
+    /* 載入中提示，待 React 掛載後被取代 */
+    #boot {
+      display: flex; align-items: center; justify-content: center;
+      min-height: 100vh; color: #8A937E;
+      font-family: system-ui, "PingFang TC", "Microsoft JhengHei", sans-serif;
+      font-size: 14px; letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"><div id="boot">⚽ 載入分析儀表板中…</div></div>
+
+  <!-- React 函式庫（本地，無外部依賴） -->
+  <script src="./vendor/react.production.min.js"></script>
+  <script src="./vendor/react-dom.production.min.js"></script>
+  <!-- 已預先編譯好的應用程式 -->
+  <script src="./app.js"></script>
+</body>
+</html>
