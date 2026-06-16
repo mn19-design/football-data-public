@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-06-14T12:11:21.276052+00:00",
+  "timezone": "Asia/Taipei",
+  "dates": [
+    "2026-06-14"
+  ],
+  "leagues_filter": [
+    "1"
+  ],
+  "count": 1,
+  "fixtures": [
+    {
+      "id": 1192001,
+      "date": "2026-06-14T22:00:00+08:00",
+      "timestamp": 1781000000,
+      "status": "NS",
+      "status_text": "Not Started",
+      "venue": {
+        "id": 556,
+        "name": "Lusail Stadium",
+        "city": "Lusail"
+      },
+      "league": {
+        "id": 1,
+        "name": "World Cup",
+        "country": "World",
+        "round": "Group A - 1",
+        "logo": "https://x/lg.png",
+        "season": 2026
+      },
+      "home": {
+        "id": 26,
+        "name": "Argentina",
+        "logo": "https://x/arg.png"
+      },
+      "away": {
+        "id": 2,
+        "name": "France",
+        "logo": "https://x/fra.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
+}
