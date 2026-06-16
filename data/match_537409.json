@@ -1,0 +1,53 @@
+{
+  "fixture_id": 537409,
+  "date": "2026-06-17T20:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "WC",
+    "name": "FIFA World Cup",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 770,
+    "name": "England",
+    "tla": "ENG",
+    "logo": "https://crests.football-data.org/770.svg",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 799,
+    "name": "Croatia",
+    "tla": "CRO",
+    "logo": "https://crests.football-data.org/799.svg",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 3,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2021-06-13",
+        "home": "England",
+        "away": "Croatia",
+        "score": "1-0",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-06-16T16:14:59.445294+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
