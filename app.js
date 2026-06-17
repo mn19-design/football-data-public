@@ -1060,6 +1060,8 @@ function App() {
   const [loadingMatch, setLoadingMatch] = useState(false);
   const [dataDate,     setDataDate]     = useState("");
   const [aiPicks,      setAiPicks]      = useState([]);
+  const [fixtureOpen,  setFixtureOpen]  = useState(true);
+  const [expandedLeague, setExpandedLeague] = useState({});
 
   useEffect(() => {
     fetch(`${GITHUB_RAW}/data/fixtures.json`)
@@ -1199,44 +1201,115 @@ function App() {
         );
       })
     ),
-    /* ── 今日比賽 Banner ─────────────────────────────────── */
+    /* ── 今日賽事（分組面板，仿運彩格式）─────────────────── */
     liveFixtures.length > 0 && /*#__PURE__*/React.createElement("div", {
-      style: {
-        background: "#141a12", borderBottom: `1px solid ${C.line}`,
-        padding: "8px 24px", display: "flex", gap: 8,
-        flexWrap: "wrap", alignItems: "center"
-      }
+      style: { background: "#111711", borderBottom: `1px solid ${C.line}` }
     },
-      /*#__PURE__*/React.createElement("span", {
-        style: { color: C.mute, fontSize: 11, whiteSpace: "nowrap" }
-      }, `📡 今日比賽 ${dataDate}：`),
-      ...liveFixtures.map(fx => {
-        const isActive = liveMatch && liveMatch.fixture_id === fx.id;
-        const matchTime = fmtMatchTime(fx.date);
-        return /*#__PURE__*/React.createElement("button", {
-          key: fx.id,
-          onClick: () => loadMatch(fx),
-          style: {
-            background: isActive ? C.pitchDim : "transparent",
-            border: `1px solid ${isActive ? C.pitch : C.line}`,
-            color: isActive ? C.chalk : C.mute,
-            padding: "4px 10px", borderRadius: 4, cursor: "pointer",
-            fontSize: 11, transition: "all 0.15s",
-            display: "flex", flexDirection: "column", alignItems: "center", gap: 1,
-            lineHeight: 1.4
-          }
+      /* 面板 header（可折疊） */
+      /*#__PURE__*/React.createElement("button", {
+        onClick: () => setFixtureOpen(v => !v),
+        style: {
+          width: "100%", display: "flex", alignItems: "center", gap: 10,
+          padding: "8px 20px", background: "none", border: "none",
+          borderBottom: fixtureOpen ? `1px solid ${C.line}` : "none",
+          cursor: "pointer", color: C.chalk
+        }
+      },
+        /*#__PURE__*/React.createElement("span", {
+          className: "osw",
+          style: { fontSize: 12, color: C.pitch, fontWeight: 700, letterSpacing: "0.06em" }
+        }, "📡 今日賽事"),
+        /*#__PURE__*/React.createElement("span", {
+          style: { fontSize: 11, color: C.mute }
+        }, dataDate, " · ", liveFixtures.length, " 場"),
+        loadingMatch && /*#__PURE__*/React.createElement("span", {
+          style: { fontSize: 11, color: C.amber, marginLeft: 8 }
+        }, "⏳ 載入中…"),
+        /*#__PURE__*/React.createElement("span", {
+          style: { marginLeft: "auto", color: C.mute, fontSize: 12 }
+        }, fixtureOpen ? "▲" : "▼")
+      ),
+      /* 分組列表 */
+      fixtureOpen && (()=>{
+        // 按國家 > 聯賽 分組
+        const groups = {};
+        liveFixtures.forEach(fx => {
+          const country = fx.league.country || "其他";
+          const league  = fx.league.name    || fx.league.code || "其他";
+          if (!groups[country]) groups[country] = {};
+          if (!groups[country][league]) groups[country][league] = [];
+          groups[country][league].push(fx);
+        });
+        return /*#__PURE__*/React.createElement("div", {
+          style: { padding: "6px 0 8px" }
         },
-          /*#__PURE__*/React.createElement("span", {
-            style: { fontSize: 10, color: isActive ? C.pitch : C.mute, fontFamily: "monospace" }
-          }, matchTime || fx.league.code),
-          /*#__PURE__*/React.createElement("span", null,
-            `${fx.home.tla||fx.home.name} vs ${fx.away.tla||fx.away.name}`
-          )
+          ...Object.entries(groups).map(([country, leagues]) => {
+            const totalCountry = Object.values(leagues).reduce((s,arr)=>s+arr.length,0);
+            return /*#__PURE__*/React.createElement("div", { key: country },
+              /* 國家 header */
+              /*#__PURE__*/React.createElement("div", {
+                style: {
+                  padding: "5px 20px 3px",
+                  fontSize: 11, color: C.mute, fontWeight: 600,
+                  letterSpacing: "0.04em", textTransform: "uppercase"
+                }
+              }, country, " (", totalCountry, ")"),
+              /* 聯賽 + 比賽 */
+              ...Object.entries(leagues).map(([league, fxs]) => {
+                const leagueKey = `${country}_${league}`;
+                const isLeagueOpen = expandedLeague[leagueKey] !== false;
+                return /*#__PURE__*/React.createElement("div", { key: league },
+                  /* 聯賽 sub-header */
+                  /*#__PURE__*/React.createElement("button", {
+                    onClick: () => setExpandedLeague(v => ({...v, [leagueKey]: !isLeagueOpen})),
+                    style: {
+                      width: "100%", display: "flex", alignItems: "center", gap: 8,
+                      padding: "5px 20px 5px 32px", background: "none", border: "none",
+                      cursor: "pointer", color: C.chalk
+                    }
+                  },
+                    /*#__PURE__*/React.createElement("span", {
+                      style: { fontSize: 12, flex: 1, textAlign: "left", fontWeight: 500 }
+                    }, "⚽ ", league, " (", fxs.length, ")"),
+                    /*#__PURE__*/React.createElement("span", {
+                      style: { fontSize: 10, color: C.mute }
+                    }, isLeagueOpen ? "▲" : "▼")
+                  ),
+                  /* 比賽按鈕列 */
+                  isLeagueOpen && /*#__PURE__*/React.createElement("div", {
+                    style: {
+                      display: "flex", flexWrap: "wrap", gap: 6,
+                      padding: "4px 20px 8px 44px"
+                    }
+                  }, ...fxs.map(fx => {
+                    const isActive = liveMatch && liveMatch.fixture_id === fx.id;
+                    const t = fmtMatchTime(fx.date);
+                    return /*#__PURE__*/React.createElement("button", {
+                      key: fx.id,
+                      onClick: () => loadMatch(fx),
+                      style: {
+                        background: isActive ? C.pitchDim : C.panel,
+                        border: `1px solid ${isActive ? C.pitch : C.line}`,
+                        borderRadius: 5, padding: "5px 12px",
+                        cursor: "pointer", color: isActive ? C.chalk : C.mute,
+                        fontSize: 11, transition: "all 0.15s",
+                        display: "flex", flexDirection: "column", alignItems: "center", gap: 1
+                      }
+                    },
+                      /*#__PURE__*/React.createElement("span", {
+                        style: { fontSize: 10, color: isActive ? C.pitch : C.mute, fontFamily: "monospace" }
+                      }, t),
+                      /*#__PURE__*/React.createElement("span", { style: { fontWeight: 500 } },
+                        `${fx.home.name} vs ${fx.away.name}`
+                      )
+                    );
+                  }))
+                );
+              })
+            );
+          })
         );
-      }),
-      loadingMatch && /*#__PURE__*/React.createElement("span", {
-        style: { color: C.amber, fontSize: 11 }
-      }, " ⏳ 載入中…")
+      })()
     ),
     /* ── Header ─────────────────────────────────────────── */
     /*#__PURE__*/React.createElement("header", {
