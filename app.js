@@ -1152,7 +1152,8 @@ function App() {
       background: C.bg,
       color: C.chalk,
       fontFamily: "'Inter', system-ui, sans-serif"
-    }
+    },
+    className: "app-root"
   }, /*#__PURE__*/React.createElement("style", null, `
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
         * { box-sizing: border-box; }
@@ -1160,7 +1161,10 @@ function App() {
         .mono { font-family: 'JetBrains Mono', monospace; }
         select, input { font-family: inherit; }
         .pquad:hover { background: ${C.panel2}; border-color: ${C.pitchDim}; }
-        @media (max-width: 880px){ .grid2 { grid-template-columns: 1fr !important; } .vs-wrap { flex-direction: column !important; } }
+        .app-root { padding-left: 260px; }
+        .fix-sidebar { position: fixed; left: 0; top: 0; width: 260px; height: 100vh; overflow-y: auto; z-index: 80; background: #111711; border-right: 1px solid #2a3a28; }
+        .fix-sidebar::-webkit-scrollbar { width: 4px; } .fix-sidebar::-webkit-scrollbar-thumb { background: #2a3a28; }
+        @media (max-width: 880px){ .grid2 { grid-template-columns: 1fr !important; } .vs-wrap { flex-direction: column !important; } .app-root { padding-left: 0; } .fix-sidebar { position: relative; width: 100%; height: auto; border-right: none; border-bottom: 1px solid #2a3a28; } }
       `),
     /* ── AI 精選 3 場 ───────────────────────────────────── */
     aiPicks.length > 0 && /*#__PURE__*/React.createElement("div", {
@@ -1203,7 +1207,7 @@ function App() {
     ),
     /* ── 今日賽事（分組面板，仿運彩格式）─────────────────── */
     liveFixtures.length > 0 && /*#__PURE__*/React.createElement("div", {
-      style: { background: "#111711", borderBottom: `1px solid ${C.line}` }
+      className: "fix-sidebar"
     },
       /* 面板 header（可折疊） */
       /*#__PURE__*/React.createElement("button", {
