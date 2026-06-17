@@ -902,12 +902,9 @@ function fatigueTag(p) {
 
 // ── 戰力與機率 (只計可出賽球員) ───────────────────────────────
 function formScore(form) {
-  const map = {
-    W: 1,
-    D: 0.4,
-    L: 0
-  };
-  return form.reduce((s, r) => s + map[r], 0) / form.length * 100;
+  if (!form || !form.length) return 50; // 無近期戰績：給中性分
+  const map = { W: 1, D: 0.4, L: 0 };
+  return form.reduce((s, r) => s + (map[r] ?? 0.4), 0) / form.length * 100;
 }
 function availablePlayers(t) {
   return t.players.filter(p => !isOut(p));
