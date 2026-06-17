@@ -29,13 +29,13 @@ function createTeamFromData(t) {
   const rd   = t.restDays || 5;
   // 4-3-3 預設 11 人陣容（賽前公佈前的佔位）
   const LINEUP_433 = [
-    {pos:"GK", label:"GK"},
-    {pos:"DF", label:"RB"}, {pos:"DF", label:"CB"}, {pos:"DF", label:"CB"}, {pos:"DF", label:"LB"},
-    {pos:"MF", label:"CM"}, {pos:"MF", label:"CM"}, {pos:"MF", label:"CAM"},
-    {pos:"FW", label:"RW"}, {pos:"FW", label:"ST"}, {pos:"FW", label:"LW"},
+    {pos:"GK", label:"門將"},
+    {pos:"DF", label:"右後衛"}, {pos:"DF", label:"中後衛"}, {pos:"DF", label:"中後衛"}, {pos:"DF", label:"左後衛"},
+    {pos:"MF", label:"中場"}, {pos:"MF", label:"中場"}, {pos:"MF", label:"攻擊中場"},
+    {pos:"FW", label:"右翼"}, {pos:"FW", label:"中鋒"}, {pos:"FW", label:"左翼"},
   ];
   const dflt = LINEUP_433.map((p, i) => ({
-    pos:p.pos, name:`${p.label} #${i+1}`, ...POS_DEF[p.pos],
+    pos:p.pos, name:`${p.label} （待公佈）`, ...POS_DEF[p.pos],
     restDays:rd, load3:240, lastRating:7.0, err3:0, status:"avail", reason:"",
     _isDefault: true
   }));
@@ -1059,6 +1059,7 @@ function App() {
   const [liveMatch,    setLiveMatch]    = useState(null);
   const [loadingMatch, setLoadingMatch] = useState(false);
   const [dataDate,     setDataDate]     = useState("");
+  const [aiPicks,      setAiPicks]      = useState([]);
 
   useEffect(() => {
     fetch(`${GITHUB_RAW}/data/fixtures.json`)
@@ -1069,6 +1070,44 @@ function App() {
       })
       .catch(() => {});
   }, []);
+
+  // ── AI 精選：載入全部比賽資料後跑模型，取信心最高3場 ──────────────
+  useEffect(() => {
+    if (liveFixtures.length === 0) return;
+    Promise.all(
+      liveFixtures.map(fx =>
+        fetch(`${GITHUB_RAW}/data/match_${fx.id}.json`)
+          .then(r => r.json())
+          .then(d => ({ fx, d }))
+          .catch(() => null)
+      )
+    ).then(results => {
+      const picks = results
+        .filter(Boolean)
+        .map(({ fx, d }) => {
+          const ht  = createTeamFromData(d.home);
+          const at  = createTeamFromData(d.away);
+          const h2h = h2hFromMatch(d.h2h);
+          const ctx = {
+            neutral: true,
+            weather: WEATHER.clear,
+            pitch:   PITCH.good,
+            h2h,
+            techHome: techReliance(ht),
+            techAway: techReliance(at),
+          };
+          const mdl     = modelProbs(ht, at, ctx);
+          const maxProb = Math.max(mdl.home, mdl.draw, mdl.away);
+          const pick    = mdl.home >= mdl.away && mdl.home >= mdl.draw ? "home"
+                        : mdl.away >= mdl.home && mdl.away >= mdl.draw ? "away"
+                        : "draw";
+          return { fx, d, mdl, maxProb, pick, ht, at };
+        })
+        .sort((a, b) => b.maxProb - a.maxProb)
+        .slice(0, 3);
+      setAiPicks(picks);
+    });
+  }, [liveFixtures]);
 
   function loadMatch(fx) {
     setLoadingMatch(true);
@@ -1121,6 +1160,45 @@ function App() {
         .pquad:hover { background: ${C.panel2}; border-color: ${C.pitchDim}; }
         @media (max-width: 880px){ .grid2 { grid-template-columns: 1fr !important; } .vs-wrap { flex-direction: column !important; } }
       `),
+    /* ── AI 精選 3 場 ───────────────────────────────────── */
+    aiPicks.length > 0 && /*#__PURE__*/React.createElement("div", {
+      style: {
+        background: "#0d1a0b", borderBottom: `2px solid ${C.pitch}`,
+        padding: "10px 24px", display: "flex", gap: 12,
+        flexWrap: "wrap", alignItems: "center"
+      }
+    },
+      /*#__PURE__*/React.createElement("span", {
+        className: "osw",
+        style: { color: C.pitch, fontSize: 12, fontWeight: 700, whiteSpace: "nowrap", letterSpacing: "0.05em" }
+      }, "🤖 AI 精選"),
+      ...aiPicks.map((pick, i) => {
+        const recLabel = pick.pick === "home"
+          ? `${pick.fx.home.tla||pick.fx.home.name.slice(0,3)} 贏`
+          : pick.pick === "away"
+          ? `${pick.fx.away.tla||pick.fx.away.name.slice(0,3)} 贏`
+          : "和局";
+        const recProb = Math.round(pick.maxProb * 100);
+        const accent  = [C.pitch, C.amber, C.rust][i];
+        return /*#__PURE__*/React.createElement("button", {
+          key: pick.fx.id,
+          onClick: () => loadMatch(pick.fx),
+          style: {
+            background: liveMatch && liveMatch.fixture_id === pick.fx.id ? C.pitchDim : "transparent",
+            border: `1px solid ${accent}`,
+            borderRadius: 6, padding: "5px 12px", cursor: "pointer",
+            display: "flex", flexDirection: "column", alignItems: "center", gap: 1
+          }
+        },
+          /*#__PURE__*/React.createElement("span", {
+            style: { fontSize: 11, color: accent, fontWeight: 700 }
+          }, `#${i+1} ${recLabel} ${recProb}%`),
+          /*#__PURE__*/React.createElement("span", {
+            style: { fontSize: 10, color: C.mute }
+          }, `${pick.fx.home.tla||pick.fx.home.name} vs ${pick.fx.away.tla||pick.fx.away.name}`)
+        );
+      })
+    ),
     /* ── 今日比賽 Banner ─────────────────────────────────── */
     liveFixtures.length > 0 && /*#__PURE__*/React.createElement("div", {
       style: {
@@ -2749,6 +2827,10 @@ function Squad({
       label: "OVR",
       v: p.ovr,
       color: accent
+    }), /*#__PURE__*/React.createElement(Pip, {
+      label: p.pos === "GK" ? "STA" : p.pos === "DF" ? "DEF" : p.pos === "FW" ? "SHO" : "PAS",
+      v: p.pos === "GK" ? p.sta : p.pos === "DF" ? p.def : p.pos === "FW" ? p.sho : p.pas,
+      color: C.amber
     }), /*#__PURE__*/React.createElement(Pip, {
       label: "\u9AD4\u529B",
       v: out ? 0 : fit,
