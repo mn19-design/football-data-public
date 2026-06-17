@@ -1,7 +1,7 @@
 {
   "fixture_id": 537397,
   "date": "2026-06-17T01:00:00Z",
-  "status": "NS",
+  "status": "FT",
   "venue": null,
   "league": {
     "code": "WC",
@@ -14,8 +14,10 @@
     "name": "Argentina",
     "tla": "ARG",
     "logo": "https://crests.football-data.org/762.png",
-    "form": [],
-    "restDays": 7,
+    "form": [
+      "W"
+    ],
+    "restDays": 0,
     "players": [],
     "lineup_confirmed": false
   },
@@ -24,19 +26,29 @@
     "name": "Algeria",
     "tla": "ALG",
     "logo": "https://crests.football-data.org/algeria.svg",
-    "form": [],
-    "restDays": 7,
+    "form": [
+      "L"
+    ],
+    "restDays": 0,
     "players": [],
     "lineup_confirmed": false
   },
   "h2h": {
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "last5": []
+    "last5": [
+      {
+        "date": "2026-06-17",
+        "home": "Argentina",
+        "away": "Algeria",
+        "score": "3-0",
+        "result": "W"
+      }
+    ]
   },
   "weather": "clear",
-  "generated_at": "2026-06-16T16:14:59.445294+00:00",
+  "generated_at": "2026-06-17T13:00:03.225848+00:00",
   "data_notes": {
     "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
     "lineup": "免費方案不含陣容資料",

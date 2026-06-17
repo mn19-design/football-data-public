@@ -1,7 +1,7 @@
 {
   "fixture_id": 537398,
   "date": "2026-06-17T04:00:00Z",
-  "status": "NS",
+  "status": "FT",
   "venue": null,
   "league": {
     "code": "WC",
@@ -14,8 +14,10 @@
     "name": "Austria",
     "tla": "AUT",
     "logo": "https://crests.football-data.org/816.svg",
-    "form": [],
-    "restDays": 7,
+    "form": [
+      "W"
+    ],
+    "restDays": 0,
     "players": [],
     "lineup_confirmed": false
   },
@@ -24,19 +26,29 @@
     "name": "Jordan",
     "tla": "JOR",
     "logo": "https://crests.football-data.org/8049.png",
-    "form": [],
-    "restDays": 7,
+    "form": [
+      "L"
+    ],
+    "restDays": 0,
     "players": [],
     "lineup_confirmed": false
   },
   "h2h": {
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "last5": []
+    "last5": [
+      {
+        "date": "2026-06-17",
+        "home": "Austria",
+        "away": "Jordan",
+        "score": "3-1",
+        "result": "W"
+      }
+    ]
   },
   "weather": "clear",
-  "generated_at": "2026-06-16T16:14:59.445294+00:00",
+  "generated_at": "2026-06-17T13:00:03.225848+00:00",
   "data_notes": {
     "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
     "lineup": "免費方案不含陣容資料",

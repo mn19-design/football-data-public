@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T16:14:59.298161+00:00",
+  "generated_at": "2026-06-17T13:00:03.050399+00:00",
   "source": "football-data.org",
   "dates": [
     "2026-06-17",
@@ -15,8 +15,8 @@
     {
       "id": 537397,
       "date": "2026-06-17T01:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
+      "status": "FT",
+      "status_text": "FINISHED",
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
@@ -40,15 +40,15 @@
         "logo": "https://crests.football-data.org/algeria.svg"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       }
     },
     {
       "id": 537398,
       "date": "2026-06-17T04:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
+      "status": "FT",
+      "status_text": "FINISHED",
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
@@ -72,8 +72,8 @@
         "logo": "https://crests.football-data.org/8049.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       }
     },
     {
