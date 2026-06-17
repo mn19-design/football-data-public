@@ -1218,7 +1218,7 @@ function App() {
       })
     ),
     /* ── 今日賽事（分組面板，仿運彩格式）─────────────────── */
-    liveFixtures.length > 0 && /*#__PURE__*/React.createElement("div", {
+    /*#__PURE__*/React.createElement("div", {
       className: "fix-sidebar"
     },
       /* 面板 header */
@@ -1268,9 +1268,11 @@ function App() {
             },
               /*#__PURE__*/React.createElement("span", { style: { fontSize: 13 } }, "📋"),
               /*#__PURE__*/React.createElement("span", { style: { fontSize: 12, flex: 1, textAlign: "left" } }, "全部聯賽"),
-              liveFixtures.length > 0 && /*#__PURE__*/React.createElement("span", {
-                style: { fontSize: 10, background: C.pitch, color: "#000", borderRadius: 10, padding: "1px 6px", fontWeight: 700 }
-              }, liveFixtures.length)
+              liveFixtures.length > 0
+              ? /*#__PURE__*/React.createElement("span", {
+                  style: { fontSize: 10, background: C.pitch, color: "#000", borderRadius: 10, padding: "1px 6px", fontWeight: 700 }
+                }, liveFixtures.length)
+              : /*#__PURE__*/React.createElement("span", { style: { fontSize: 10, color: C.mute } }, "…")
             ),
             /* LEAGUE_CATALOG 各聯賽 */
             ...LEAGUE_CATALOG.map(lc => {
