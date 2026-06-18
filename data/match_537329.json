@@ -1,7 +1,7 @@
 {
-  "fixture_id": 537398,
-  "date": "2026-06-17T04:00:00Z",
-  "status": "FT",
+  "fixture_id": 537329,
+  "date": "2026-06-18T16:00:00Z",
+  "status": "NS",
   "venue": null,
   "league": {
     "code": "WC",
@@ -10,45 +10,37 @@
     "season": "2026"
   },
   "home": {
-    "id": 816,
-    "name": "Austria",
-    "tla": "AUT",
-    "logo": "https://crests.football-data.org/816.svg",
+    "id": 798,
+    "name": "Czechia",
+    "tla": "CZE",
+    "logo": "https://crests.football-data.org/798.svg",
     "form": [
-      "W"
+      "L"
     ],
-    "restDays": 0,
+    "restDays": 6,
     "players": [],
     "lineup_confirmed": false
   },
   "away": {
-    "id": 8049,
-    "name": "Jordan",
-    "tla": "JOR",
-    "logo": "https://crests.football-data.org/8049.png",
+    "id": 774,
+    "name": "South Africa",
+    "tla": "RSA",
+    "logo": "https://crests.football-data.org/9396.svg",
     "form": [
       "L"
     ],
-    "restDays": 0,
+    "restDays": 7,
     "players": [],
     "lineup_confirmed": false
   },
   "h2h": {
     "w": 0,
-    "d": 1,
+    "d": 0,
     "l": 0,
-    "last5": [
-      {
-        "date": "2026-06-17",
-        "home": "Austria",
-        "away": "Jordan",
-        "score": "3-1",
-        "result": "W"
-      }
-    ]
+    "last5": []
   },
   "weather": "clear",
-  "generated_at": "2026-06-17T13:00:03.225848+00:00",
+  "generated_at": "2026-06-18T12:19:09.094807+00:00",
   "data_notes": {
     "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
     "lineup": "免費方案不含陣容資料",
