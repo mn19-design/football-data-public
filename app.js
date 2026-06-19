@@ -1148,6 +1148,7 @@ function App() {
   const xg = useMemo(() => expectedGoals(home, away, ctx), [homeKey, awayKey, ctx, liveMatch]);
   const sm = useMemo(() => scoreMatrix(xg.xgH, xg.xgA), [xg]);
   const hcap = useMemo(() => handicapProbs(xg.xgH, xg.xgA, hcapLine), [xg, hcapLine]);
+  const liveFx = liveMatch ? liveFixtures.find(fx => fx.id === liveMatch.fixture_id) || null : null;
   const oh = parseFloat(odds.home) || 0,
     od = parseFloat(odds.draw) || 0,
     oa = parseFloat(odds.away) || 0;
@@ -1319,8 +1320,14 @@ function App() {
               }
             },
               /*#__PURE__*/React.createElement("span", {
-                style: { fontSize: 10, color: isActive ? C.pitch : C.mute, fontFamily: "monospace" }
-              }, fx.league.code, " · ", t),
+                style: { fontSize: 10, color: isActive ? C.pitch : C.mute, fontFamily: "monospace", display: "flex", justifyContent: "space-between" }
+              }, /*#__PURE__*/React.createElement("span", null, fx.league.code, " · ", t),
+                fx.status === "FT" && fx.goals && fx.goals.home != null
+                  ? /*#__PURE__*/React.createElement("span", { style: { color: C.pitch } }, "FT ", fx.goals.home, "-", fx.goals.away)
+                  : ["1H","2H","HT"].includes(fx.status)
+                    ? /*#__PURE__*/React.createElement("span", { style: { color: C.rust } }, "● LIVE")
+                    : null
+              ),
               /*#__PURE__*/React.createElement("span", { style: { fontSize: 12, fontWeight: 500, lineHeight: 1.4 } },
                 `${fx.home.name} vs ${fx.away.name}`
               )
@@ -1373,7 +1380,49 @@ function App() {
       margin: "0 auto",
       padding: 24
     }
-  }, /*#__PURE__*/React.createElement("section", {
+  }, liveFx && /*#__PURE__*/React.createElement("div", {
+    style: {
+      background: "linear-gradient(135deg, #0f1f10 0%, #162318 100%)",
+      border: `1px solid ${C.pitch}`,
+      borderRadius: 10,
+      padding: "18px 24px",
+      marginBottom: 20,
+      position: "relative"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: { fontSize: 11, color: C.mute }
+  }, liveFx.competition ? liveFx.competition.name : liveFx.league && liveFx.league.name),
+    /*#__PURE__*/React.createElement("span", {
+      style: {
+        fontSize: 10,
+        fontWeight: 700,
+        padding: "3px 8px",
+        borderRadius: 4,
+        background: liveFx.status === "FT" ? "#1a3a1a" : ["1H","2H","HT"].includes(liveFx.status) ? "#3a1a1a" : "#1a2a3a",
+        color: liveFx.status === "FT" ? C.pitch : ["1H","2H","HT"].includes(liveFx.status) ? C.rust : C.sky
+      }
+    }, liveFx.status === "FT" ? "\u2713 \u5DF2\u5B8C\u8CFD" : ["1H","2H","HT"].includes(liveFx.status) ? "\u25CF LIVE" : fmtMatchTime(liveFx.date))
+  ), /*#__PURE__*/React.createElement("div", {
+    style: { display: "flex", alignItems: "center", justifyContent: "center", gap: 20, flexWrap: "wrap" }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: { textAlign: "right", flex: 1, minWidth: 120 }
+  }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 13, fontWeight: 600, color: C.chalk } }, liveFx.home.name),
+    /*#__PURE__*/React.createElement("div", { style: { fontSize: 11, color: C.mute } }, liveFx.home.tla || "")
+  ), /*#__PURE__*/React.createElement("div", {
+    style: { fontSize: 28, fontWeight: 700, color: C.chalk, fontFamily: "monospace", minWidth: 80, textAlign: "center" }
+  }, liveFx.status === "FT" && liveFx.goals && liveFx.goals.home != null
+    ? `${liveFx.goals.home} - ${liveFx.goals.away}`
+    : "VS"
+  ), /*#__PURE__*/React.createElement("div", {
+    style: { textAlign: "left", flex: 1, minWidth: 120 }
+  }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 13, fontWeight: 600, color: C.chalk } }, liveFx.away.name),
+    /*#__PURE__*/React.createElement("div", { style: { fontSize: 11, color: C.mute } }, liveFx.away.tla || "")
+  )), /*#__PURE__*/React.createElement("div", {
+    style: { fontSize: 10, color: C.mute, marginTop: 10, textAlign: "center", fontFamily: "monospace" }
+  }, `xG ${xg.xgH.toFixed(1)} \u00B7 ${xg.xgA.toFixed(1)}  \u00B7  \u6A21\u578B: \u4E3B\u52DD ${(model.home*100).toFixed(0)}%  \u5E73 ${(model.draw*100).toFixed(0)}%  \u5BA2\u52DD ${(model.away*100).toFixed(0)}%`)
+  ), /*#__PURE__*/React.createElement("section", {
     style: {
       background: C.panel,
       border: `1px solid ${C.line}`,
@@ -2367,29 +2416,6 @@ function TeamPicker({
       lineHeight: 1
     }
   }, team.flag), /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginTop: 8,
-      display: "flex",
-      flexWrap: "wrap",
-      gap: 4,
-      justifyContent: align === "right" ? "flex-end" : "flex-start"
-    }
-  }, TEAM_KEYS.map(k => /*#__PURE__*/React.createElement("button", {
-    key: k,
-    onClick: () => onChange(k),
-    style: {
-      background: value === k ? accent : C.panel2,
-      color: value === k ? "#0a0f09" : C.chalk,
-      border: `1px solid ${value === k ? accent : C.line}`,
-      borderRadius: 4,
-      padding: "4px 9px",
-      fontSize: 12,
-      fontWeight: value === k ? 700 : 400,
-      cursor: "pointer",
-      transition: "all 0.15s",
-      whiteSpace: "nowrap"
-    }
-  }, `${TEAMS[k].flag} ${TEAMS[k].name}`))), /*#__PURE__*/React.createElement("div", {
     className: "mono",
     style: {
       marginTop: 8,
@@ -2827,27 +2853,13 @@ function Squad({
   onSelect,
   sel
 }) {
-  return /*#__PURE__*/React.createElement("section", {
-    style: {
-      background: C.panel,
-      border: `1px solid ${C.line}`,
-      borderRadius: 8,
-      padding: 18
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "osw",
-    style: {
-      fontSize: 14,
-      fontWeight: 600,
-      color: accent,
-      marginBottom: 12
-    }
-  }, team.flag, " ", team.name, " \xB7 \u4E3B\u529B\u540D\u55AE",
-    team.players.length > 0 && team.players[0]._isDefault &&
-      /*#__PURE__*/React.createElement("span", {
-        style: { fontSize:10, color: C.mute, fontWeight:400, marginLeft:8 }
-      }, "\u2014 \u9810\u8A2D\u9663\u5BB9\uFF0C\u8CFD\u524D\u516C\u4F48\u5F8C\u66F4\u65B0")
-  ), team.players.map(p => {
+  const [showSubs, setShowSubs] = React.useState(false);
+  const _isDefault = team.players.length > 0 && team.players[0]._isDefault;
+  const starters = _isDefault ? team.players : team.players.filter(p => p.starter !== false);
+  const subs = _isDefault ? [] : team.players.filter(p => p.starter === false);
+  const formation = team.formation || "";
+
+  function renderPlayer(p) {
     const active = sel && sel.name === p.name;
     const fit = computeFit(p);
     const tag = fatigueTag(p);
@@ -2881,13 +2893,24 @@ function Squad({
       style: {
         fontSize: 10,
         color: C.mute,
-        width: 24
+        width: 18,
+        textAlign: "right",
+        flexShrink: 0
+      }
+    }, p.shirt || ""), /*#__PURE__*/React.createElement("span", {
+      className: "mono",
+      style: {
+        fontSize: 10,
+        color: C.mute,
+        width: 24,
+        flexShrink: 0
       }
     }, p.pos), /*#__PURE__*/React.createElement("span", {
       style: {
         fontSize: 14,
         width: 20,
-        textAlign: "center"
+        textAlign: "center",
+        flexShrink: 0
       }
     }, s.light), /*#__PURE__*/React.createElement("span", {
       style: {
@@ -2928,7 +2951,54 @@ function Squad({
       color: C.rust,
       highlight: !out && fit < p.sta - 6
     }));
-  }), /*#__PURE__*/React.createElement("div", {
+  }
+
+  return /*#__PURE__*/React.createElement("section", {
+    style: {
+      background: C.panel,
+      border: `1px solid ${C.line}`,
+      borderRadius: 8,
+      padding: 18
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "osw",
+    style: {
+      fontSize: 14,
+      fontWeight: 600,
+      color: accent,
+      marginBottom: 12
+    }
+  }, team.flag, " ", team.name, " \xB7 \u4E3B\u529B\u540D\u55AE",
+    !_isDefault && formation && /*#__PURE__*/React.createElement("span", {
+      style: { fontSize: 11, color: C.mute, fontWeight: 400, marginLeft: 8 }
+    }, "[", formation, "]"),
+    _isDefault && /*#__PURE__*/React.createElement("span", {
+      style: { fontSize: 10, color: C.mute, fontWeight: 400, marginLeft: 8 }
+    }, "\u2014 \u9810\u8A2D\u9663\u5BB9\uFF0C\u8CFD\u524D\u516C\u4F48\u5F8C\u66F4\u65B0")
+  ),
+  !_isDefault && /*#__PURE__*/React.createElement("div", {
+    style: { fontSize: 11, color: C.mute, marginBottom: 8 }
+  }, "\u2B50 \u5148\u767C (", starters.length, "\u4EBA)"),
+  starters.map(p => renderPlayer(p)),
+  subs.length > 0 && /*#__PURE__*/React.createElement(React.Fragment, null,
+    /*#__PURE__*/React.createElement("button", {
+      onClick: () => setShowSubs(!showSubs),
+      style: {
+        width: "100%",
+        textAlign: "left",
+        background: "transparent",
+        border: `1px solid ${C.line}`,
+        borderRadius: 6,
+        padding: "7px 11px",
+        marginBottom: 7,
+        cursor: "pointer",
+        color: C.mute,
+        fontSize: 11
+      }
+    }, showSubs ? "\u25BC" : "\u25B6", " \u66FF\u88DC (", subs.length, "\u4EBA)"),
+    showSubs && subs.map(p => renderPlayer(p))
+  ),
+  /*#__PURE__*/React.createElement("div", {
     className: "mono",
     style: {
       fontSize: 9,
