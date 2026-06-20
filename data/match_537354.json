@@ -1,0 +1,49 @@
+{
+  "fixture_id": 537354,
+  "date": "2026-06-21T00:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "WC",
+    "name": "FIFA World Cup",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 791,
+    "name": "Ecuador",
+    "tla": "ECU",
+    "logo": "https://crests.football-data.org/791.svg",
+    "form": [
+      "L"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 9460,
+    "name": "Curaçao",
+    "tla": "CUW",
+    "logo": "https://crests.football-data.org/curacao.svg",
+    "form": [
+      "L"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "last5": []
+  },
+  "weather": "clear",
+  "generated_at": "2026-06-20T10:15:59.443757+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
