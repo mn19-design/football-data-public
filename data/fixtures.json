@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-24T10:34:55.377836+00:00",
+  "generated_at": "2026-06-25T10:24:34.298464+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-06-24",
-    "2026-06-25"
+    "2026-06-25",
+    "2026-06-26"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 5,
+  "count": 6,
   "fixtures": [
     {
-      "id": 537406,
-      "date": "2026-06-24T02:00:00Z",
+      "id": 537331,
+      "date": "2026-06-25T01:00:00Z",
       "status": "FT",
       "status_text": "FINISHED",
-      "matchday": 2,
+      "matchday": 3,
       "stage": "GROUP_STAGE",
-      "group": "GROUP_K",
+      "group": "GROUP_A",
       "venue": null,
       "league": {
         "code": "WC",
@@ -28,16 +28,48 @@
         "season": "2026"
       },
       "home": {
-        "id": 818,
-        "name": "Colombia",
-        "tla": "COL",
-        "logo": "https://crests.football-data.org/818.svg"
+        "id": 798,
+        "name": "Czechia",
+        "tla": "CZE",
+        "logo": "https://crests.football-data.org/798.svg"
       },
       "away": {
-        "id": 1934,
-        "name": "Congo DR",
-        "tla": "COD",
-        "logo": "https://crests.football-data.org/congo_dr.svg"
+        "id": 769,
+        "name": "Mexico",
+        "tla": "MEX",
+        "logo": "https://crests.football-data.org/769.svg"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": 537332,
+      "date": "2026-06-25T01:00:00Z",
+      "status": "FT",
+      "status_text": "FINISHED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_A",
+      "venue": null,
+      "league": {
+        "code": "WC",
+        "name": "FIFA World Cup",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 774,
+        "name": "South Africa",
+        "tla": "RSA",
+        "logo": "https://crests.football-data.org/9396.svg"
+      },
+      "away": {
+        "id": 772,
+        "name": "South Korea",
+        "tla": "KOR",
+        "logo": "https://crests.football-data.org/772.png"
       },
       "goals": {
         "home": 1,
@@ -45,13 +77,13 @@
       }
     },
     {
-      "id": 537338,
-      "date": "2026-06-24T19:00:00Z",
+      "id": 537355,
+      "date": "2026-06-25T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
-      "group": "GROUP_B",
+      "group": "GROUP_E",
       "venue": null,
       "league": {
         "code": "WC",
@@ -60,16 +92,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 1060,
-        "name": "Bosnia-Herzegovina",
-        "tla": "BIH",
-        "logo": "https://crests.football-data.org/bosnia.svg"
+        "id": 791,
+        "name": "Ecuador",
+        "tla": "ECU",
+        "logo": "https://crests.football-data.org/791.svg"
       },
       "away": {
-        "id": 8030,
-        "name": "Qatar",
-        "tla": "QAT",
-        "logo": "https://crests.football-data.org/8030.svg"
+        "id": 759,
+        "name": "Germany",
+        "tla": "GER",
+        "logo": "https://crests.football-data.org/759.svg"
       },
       "goals": {
         "home": null,
@@ -77,13 +109,13 @@
       }
     },
     {
-      "id": 537337,
-      "date": "2026-06-24T19:00:00Z",
+      "id": 537356,
+      "date": "2026-06-25T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
-      "group": "GROUP_B",
+      "group": "GROUP_E",
       "venue": null,
       "league": {
         "code": "WC",
@@ -92,16 +124,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 788,
-        "name": "Switzerland",
-        "tla": "SUI",
-        "logo": "https://crests.football-data.org/788.svg"
+        "id": 9460,
+        "name": "Curaçao",
+        "tla": "CUW",
+        "logo": "https://crests.football-data.org/curacao.svg"
       },
       "away": {
-        "id": 828,
-        "name": "Canada",
-        "tla": "CAN",
-        "logo": "https://crests.football-data.org/canada.svg"
+        "id": 1935,
+        "name": "Ivory Coast",
+        "tla": "CIV",
+        "logo": "https://crests.football-data.org/787.svg"
       },
       "goals": {
         "home": null,
@@ -109,13 +141,13 @@
       }
     },
     {
-      "id": 537344,
-      "date": "2026-06-24T22:00:00Z",
+      "id": 537361,
+      "date": "2026-06-25T23:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
-      "group": "GROUP_C",
+      "group": "GROUP_F",
       "venue": null,
       "league": {
         "code": "WC",
@@ -124,16 +156,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 815,
-        "name": "Morocco",
-        "tla": "MAR",
-        "logo": "https://crests.football-data.org/morocco.svg"
+        "id": 802,
+        "name": "Tunisia",
+        "tla": "TUN",
+        "logo": "https://crests.football-data.org/tunisia.svg"
       },
       "away": {
-        "id": 836,
-        "name": "Haiti",
-        "tla": "HAI",
-        "logo": "https://crests.football-data.org/haiti.svg"
+        "id": 8601,
+        "name": "Netherlands",
+        "tla": "NED",
+        "logo": "https://crests.football-data.org/8601.svg"
       },
       "goals": {
         "home": null,
@@ -141,13 +173,13 @@
       }
     },
     {
-      "id": 537343,
-      "date": "2026-06-24T22:00:00Z",
+      "id": 537362,
+      "date": "2026-06-25T23:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
-      "group": "GROUP_C",
+      "group": "GROUP_F",
       "venue": null,
       "league": {
         "code": "WC",
@@ -156,16 +188,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 8873,
-        "name": "Scotland",
-        "tla": "SCO",
-        "logo": "https://crests.football-data.org/814.svg"
+        "id": 766,
+        "name": "Japan",
+        "tla": "JPN",
+        "logo": "https://crests.football-data.org/766.svg"
       },
       "away": {
-        "id": 764,
-        "name": "Brazil",
-        "tla": "BRA",
-        "logo": "https://crests.football-data.org/764.svg"
+        "id": 792,
+        "name": "Sweden",
+        "tla": "SWE",
+        "logo": "https://crests.football-data.org/792.svg"
       },
       "goals": {
         "home": null,
