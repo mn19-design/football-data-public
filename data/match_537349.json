@@ -1,0 +1,61 @@
+{
+  "fixture_id": 537349,
+  "date": "2026-06-26T02:00:00Z",
+  "status": "FT",
+  "venue": null,
+  "league": {
+    "code": "WC",
+    "name": "FIFA World Cup",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 803,
+    "name": "Turkey",
+    "tla": "TUR",
+    "logo": "https://crests.football-data.org/803.svg",
+    "form": [
+      "L",
+      "L",
+      "W"
+    ],
+    "restDays": 0,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 771,
+    "name": "United States",
+    "tla": "USA",
+    "logo": "https://crests.football-data.org/usa.svg",
+    "form": [
+      "W",
+      "W",
+      "L"
+    ],
+    "restDays": 0,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-06-26",
+        "home": "Turkey",
+        "away": "United States",
+        "score": "3-2",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-06-26T10:37:35.774803+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
