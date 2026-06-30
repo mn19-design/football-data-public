@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-29T14:37:18.713617+00:00",
+  "generated_at": "2026-06-30T00:04:31.228690+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-06-29",
-    "2026-06-30"
+    "2026-06-30",
+    "2026-07-01"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 2,
+  "count": 3,
   "fixtures": [
     {
-      "id": 537423,
-      "date": "2026-06-29T17:00:00Z",
+      "id": 537418,
+      "date": "2026-06-30T01:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": null,
@@ -28,16 +28,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 764,
-        "name": "Brazil",
-        "tla": "BRA",
-        "logo": "https://crests.football-data.org/764.svg"
+        "id": 8601,
+        "name": "Netherlands",
+        "tla": "NED",
+        "logo": "https://crests.football-data.org/8601.svg"
       },
       "away": {
-        "id": 766,
-        "name": "Japan",
-        "tla": "JPN",
-        "logo": "https://crests.football-data.org/766.svg"
+        "id": 815,
+        "name": "Morocco",
+        "tla": "MAR",
+        "logo": "https://crests.football-data.org/morocco.svg"
       },
       "goals": {
         "home": null,
@@ -45,8 +45,8 @@
       }
     },
     {
-      "id": 537415,
-      "date": "2026-06-29T20:30:00Z",
+      "id": 537424,
+      "date": "2026-06-30T17:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": null,
@@ -60,16 +60,48 @@
         "season": "2026"
       },
       "home": {
-        "id": 759,
-        "name": "Germany",
-        "tla": "GER",
-        "logo": "https://crests.football-data.org/759.svg"
+        "id": 1935,
+        "name": "Ivory Coast",
+        "tla": "CIV",
+        "logo": "https://crests.football-data.org/787.svg"
       },
       "away": {
-        "id": 761,
-        "name": "Paraguay",
-        "tla": "PAR",
-        "logo": "https://crests.football-data.org/761.svg"
+        "id": 8872,
+        "name": "Norway",
+        "tla": "NOR",
+        "logo": "https://crests.football-data.org/813.svg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 537416,
+      "date": "2026-06-30T21:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": null,
+      "stage": "LAST_32",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "WC",
+        "name": "FIFA World Cup",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 773,
+        "name": "France",
+        "tla": "FRA",
+        "logo": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "id": 792,
+        "name": "Sweden",
+        "tla": "SWE",
+        "logo": "https://crests.football-data.org/792.svg"
       },
       "goals": {
         "home": null,
