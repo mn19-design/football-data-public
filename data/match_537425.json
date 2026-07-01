@@ -1,0 +1,53 @@
+{
+  "fixture_id": 537425,
+  "date": "2026-07-01T01:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "WC",
+    "name": "FIFA World Cup",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 769,
+    "name": "Mexico",
+    "tla": "MEX",
+    "logo": "https://crests.football-data.org/769.svg",
+    "form": [
+      "W",
+      "W",
+      "W"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 791,
+    "name": "Ecuador",
+    "tla": "ECU",
+    "logo": "https://crests.football-data.org/791.svg",
+    "form": [
+      "L",
+      "D",
+      "W"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 2,
+    "l": 0,
+    "last5": []
+  },
+  "weather": "clear",
+  "generated_at": "2026-07-01T00:05:45.814351+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

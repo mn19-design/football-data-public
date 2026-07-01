@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-30T00:04:31.228690+00:00",
+  "generated_at": "2026-07-01T00:05:45.654058+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-06-30",
-    "2026-07-01"
+    "2026-07-01",
+    "2026-07-02"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 3,
+  "count": 4,
   "fixtures": [
     {
-      "id": 537418,
-      "date": "2026-06-30T01:00:00Z",
+      "id": 537425,
+      "date": "2026-07-01T01:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": null,
@@ -28,16 +28,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 8601,
-        "name": "Netherlands",
-        "tla": "NED",
-        "logo": "https://crests.football-data.org/8601.svg"
+        "id": 769,
+        "name": "Mexico",
+        "tla": "MEX",
+        "logo": "https://crests.football-data.org/769.svg"
       },
       "away": {
-        "id": 815,
-        "name": "Morocco",
-        "tla": "MAR",
-        "logo": "https://crests.football-data.org/morocco.svg"
+        "id": 791,
+        "name": "Ecuador",
+        "tla": "ECU",
+        "logo": "https://crests.football-data.org/791.svg"
       },
       "goals": {
         "home": null,
@@ -45,8 +45,8 @@
       }
     },
     {
-      "id": 537424,
-      "date": "2026-06-30T17:00:00Z",
+      "id": 537426,
+      "date": "2026-07-01T16:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": null,
@@ -60,16 +60,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 1935,
-        "name": "Ivory Coast",
-        "tla": "CIV",
-        "logo": "https://crests.football-data.org/787.svg"
+        "id": 770,
+        "name": "England",
+        "tla": "ENG",
+        "logo": "https://crests.football-data.org/770.svg"
       },
       "away": {
-        "id": 8872,
-        "name": "Norway",
-        "tla": "NOR",
-        "logo": "https://crests.football-data.org/813.svg"
+        "id": 1934,
+        "name": "Congo DR",
+        "tla": "COD",
+        "logo": "https://crests.football-data.org/congo_dr.svg"
       },
       "goals": {
         "home": null,
@@ -77,8 +77,8 @@
       }
     },
     {
-      "id": 537416,
-      "date": "2026-06-30T21:00:00Z",
+      "id": 537422,
+      "date": "2026-07-01T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": null,
@@ -92,16 +92,48 @@
         "season": "2026"
       },
       "home": {
-        "id": 773,
-        "name": "France",
-        "tla": "FRA",
-        "logo": "https://crests.football-data.org/773.svg"
+        "id": 805,
+        "name": "Belgium",
+        "tla": "BEL",
+        "logo": "https://crests.football-data.org/805.svg"
       },
       "away": {
-        "id": 792,
-        "name": "Sweden",
-        "tla": "SWE",
-        "logo": "https://crests.football-data.org/792.svg"
+        "id": 804,
+        "name": "Senegal",
+        "tla": "SEN",
+        "logo": "https://crests.football-data.org/senegal.svg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 537421,
+      "date": "2026-07-02T00:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": null,
+      "stage": "LAST_32",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "WC",
+        "name": "FIFA World Cup",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 771,
+        "name": "United States",
+        "tla": "USA",
+        "logo": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "id": 1060,
+        "name": "Bosnia-Herzegovina",
+        "tla": "BIH",
+        "logo": "https://crests.football-data.org/bosnia.svg"
       },
       "goals": {
         "home": null,
