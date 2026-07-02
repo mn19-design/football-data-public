@@ -1,0 +1,53 @@
+{
+  "fixture_id": 537419,
+  "date": "2026-07-02T23:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "WC",
+    "name": "FIFA World Cup",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 765,
+    "name": "Portugal",
+    "tla": "POR",
+    "logo": "https://crests.football-data.org/765.svg",
+    "form": [
+      "D",
+      "W",
+      "D"
+    ],
+    "restDays": 5,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 799,
+    "name": "Croatia",
+    "tla": "CRO",
+    "logo": "https://crests.football-data.org/799.svg",
+    "form": [
+      "L",
+      "W",
+      "W"
+    ],
+    "restDays": 5,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 4,
+    "l": 0,
+    "last5": []
+  },
+  "weather": "clear",
+  "generated_at": "2026-07-02T00:07:13.847529+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
