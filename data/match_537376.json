@@ -1,0 +1,63 @@
+{
+  "fixture_id": 537376,
+  "date": "2026-07-04T17:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "WC",
+    "name": "FIFA World Cup",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 828,
+    "name": "Canada",
+    "tla": "CAN",
+    "logo": "https://crests.football-data.org/canada.svg",
+    "form": [
+      "D",
+      "W",
+      "L",
+      "W"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 815,
+    "name": "Morocco",
+    "tla": "MAR",
+    "logo": "https://crests.football-data.org/morocco.svg",
+    "form": [
+      "D",
+      "W",
+      "W",
+      "W"
+    ],
+    "restDays": 4,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2022-12-01",
+        "home": "Canada",
+        "away": "Morocco",
+        "score": "1-2",
+        "result": "L"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-07-04T00:04:16.289063+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
