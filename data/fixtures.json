@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-06T00:05:51.212916+00:00",
+  "generated_at": "2026-07-07T00:08:14.645250+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-07-06",
-    "2026-07-07"
+    "2026-07-07",
+    "2026-07-08"
   ],
   "competitions": [
     "WC",
@@ -13,74 +13,10 @@
   "count": 3,
   "fixtures": [
     {
-      "id": 537378,
-      "date": "2026-07-06T01:00:00Z",
-      "status": "2026-07-06 01:00:00Z",
-      "status_text": "2026-07-06 01:00:00Z",
-      "matchday": null,
-      "stage": "LAST_16",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "WC",
-        "name": "FIFA World Cup",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 769,
-        "name": "Mexico",
-        "tla": "MEX",
-        "logo": "https://crests.football-data.org/769.svg"
-      },
-      "away": {
-        "id": 770,
-        "name": "England",
-        "tla": "ENG",
-        "logo": "https://crests.football-data.org/770.svg"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 537379,
-      "date": "2026-07-06T19:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": null,
-      "stage": "LAST_16",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "WC",
-        "name": "FIFA World Cup",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 765,
-        "name": "Portugal",
-        "tla": "POR",
-        "logo": "https://crests.football-data.org/765.svg"
-      },
-      "away": {
-        "id": 760,
-        "name": "Spain",
-        "tla": "ESP",
-        "logo": "https://crests.football-data.org/760.svg"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
       "id": 537380,
       "date": "2026-07-07T00:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
+      "status": "LIVE",
+      "status_text": "IN_PLAY",
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
@@ -102,6 +38,70 @@
         "name": "Belgium",
         "tla": "BEL",
         "logo": "https://crests.football-data.org/805.svg"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": 537381,
+      "date": "2026-07-07T16:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": null,
+      "stage": "LAST_16",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "WC",
+        "name": "FIFA World Cup",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 762,
+        "name": "Argentina",
+        "tla": "ARG",
+        "logo": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "id": 825,
+        "name": "Egypt",
+        "tla": "EGY",
+        "logo": "https://crests.football-data.org/825.svg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 537382,
+      "date": "2026-07-07T20:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": null,
+      "stage": "LAST_16",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "WC",
+        "name": "FIFA World Cup",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 788,
+        "name": "Switzerland",
+        "tla": "SUI",
+        "logo": "https://crests.football-data.org/788.svg"
+      },
+      "away": {
+        "id": 818,
+        "name": "Colombia",
+        "tla": "COL",
+        "logo": "https://crests.football-data.org/818.svg"
       },
       "goals": {
         "home": null,
