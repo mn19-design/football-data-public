@@ -1,112 +1,15 @@
 {
-  "generated_at": "2026-07-07T00:08:14.645250+00:00",
+  "generated_at": "2026-07-07T23:57:43.918650+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-07-07",
-    "2026-07-08"
+    "2026-07-08",
+    "2026-07-09"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 3,
-  "fixtures": [
-    {
-      "id": 537380,
-      "date": "2026-07-07T00:00:00Z",
-      "status": "LIVE",
-      "status_text": "IN_PLAY",
-      "matchday": null,
-      "stage": "LAST_16",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "WC",
-        "name": "FIFA World Cup",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 771,
-        "name": "United States",
-        "tla": "USA",
-        "logo": "https://crests.football-data.org/usa.svg"
-      },
-      "away": {
-        "id": 805,
-        "name": "Belgium",
-        "tla": "BEL",
-        "logo": "https://crests.football-data.org/805.svg"
-      },
-      "goals": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": 537381,
-      "date": "2026-07-07T16:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": null,
-      "stage": "LAST_16",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "WC",
-        "name": "FIFA World Cup",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 762,
-        "name": "Argentina",
-        "tla": "ARG",
-        "logo": "https://crests.football-data.org/762.png"
-      },
-      "away": {
-        "id": 825,
-        "name": "Egypt",
-        "tla": "EGY",
-        "logo": "https://crests.football-data.org/825.svg"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 537382,
-      "date": "2026-07-07T20:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": null,
-      "stage": "LAST_16",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "WC",
-        "name": "FIFA World Cup",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 788,
-        "name": "Switzerland",
-        "tla": "SUI",
-        "logo": "https://crests.football-data.org/788.svg"
-      },
-      "away": {
-        "id": 818,
-        "name": "Colombia",
-        "tla": "COL",
-        "logo": "https://crests.football-data.org/818.svg"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    }
-  ]
+  "count": 0,
+  "fixtures": []
 }
