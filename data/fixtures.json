@@ -1,15 +1,48 @@
 {
-  "generated_at": "2026-07-07T23:57:43.918650+00:00",
+  "generated_at": "2026-07-09T00:10:05.493130+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-07-08",
-    "2026-07-09"
+    "2026-07-09",
+    "2026-07-10"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 0,
-  "fixtures": []
+  "count": 1,
+  "fixtures": [
+    {
+      "id": 537383,
+      "date": "2026-07-09T20:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": null,
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "WC",
+        "name": "FIFA World Cup",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 773,
+        "name": "France",
+        "tla": "FRA",
+        "logo": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "id": 815,
+        "name": "Morocco",
+        "tla": "MAR",
+        "logo": "https://crests.football-data.org/morocco.svg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
 }
