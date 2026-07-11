@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-10T23:57:47.140242+00:00",
+  "generated_at": "2026-07-11T23:54:52.450020+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-07-11",
-    "2026-07-12"
+    "2026-07-12",
+    "2026-07-13"
   ],
   "competitions": [
     "WC",
@@ -13,8 +13,8 @@
   "count": 1,
   "fixtures": [
     {
-      "id": 537385,
-      "date": "2026-07-11T21:00:00Z",
+      "id": 537386,
+      "date": "2026-07-12T01:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": null,
@@ -28,16 +28,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 8872,
-        "name": "Norway",
-        "tla": "NOR",
-        "logo": "https://crests.football-data.org/813.svg"
+        "id": 762,
+        "name": "Argentina",
+        "tla": "ARG",
+        "logo": "https://crests.football-data.org/762.png"
       },
       "away": {
-        "id": 770,
-        "name": "England",
-        "tla": "ENG",
-        "logo": "https://crests.football-data.org/770.svg"
+        "id": 788,
+        "name": "Switzerland",
+        "tla": "SUI",
+        "logo": "https://crests.football-data.org/788.svg"
       },
       "goals": {
         "home": null,
