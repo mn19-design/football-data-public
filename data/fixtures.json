@@ -1,48 +1,15 @@
 {
-  "generated_at": "2026-07-11T23:54:52.450020+00:00",
+  "generated_at": "2026-07-12T23:54:43.129188+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-07-12",
-    "2026-07-13"
+    "2026-07-13",
+    "2026-07-14"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 1,
-  "fixtures": [
-    {
-      "id": 537386,
-      "date": "2026-07-12T01:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": null,
-      "stage": "QUARTER_FINALS",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "WC",
-        "name": "FIFA World Cup",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 762,
-        "name": "Argentina",
-        "tla": "ARG",
-        "logo": "https://crests.football-data.org/762.png"
-      },
-      "away": {
-        "id": 788,
-        "name": "Switzerland",
-        "tla": "SUI",
-        "logo": "https://crests.football-data.org/788.svg"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    }
-  ]
+  "count": 0,
+  "fixtures": []
 }
