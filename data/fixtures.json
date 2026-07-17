@@ -1,15 +1,48 @@
 {
-  "generated_at": "2026-07-16T23:59:21.361220+00:00",
+  "generated_at": "2026-07-17T23:52:53.325381+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-07-17",
-    "2026-07-18"
+    "2026-07-18",
+    "2026-07-19"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 0,
-  "fixtures": []
+  "count": 1,
+  "fixtures": [
+    {
+      "id": 537389,
+      "date": "2026-07-18T21:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": null,
+      "stage": "THIRD_PLACE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "WC",
+        "name": "FIFA World Cup",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 773,
+        "name": "France",
+        "tla": "FRA",
+        "logo": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "id": 770,
+        "name": "England",
+        "tla": "ENG",
+        "logo": "https://crests.football-data.org/770.svg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
 }
