@@ -1,48 +1,15 @@
 {
-  "generated_at": "2026-07-18T23:53:57.234706+00:00",
+  "generated_at": "2026-07-19T23:57:30.748543+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-07-19",
-    "2026-07-20"
+    "2026-07-20",
+    "2026-07-21"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 1,
-  "fixtures": [
-    {
-      "id": 537390,
-      "date": "2026-07-19T19:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": null,
-      "stage": "FINAL",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "WC",
-        "name": "FIFA World Cup",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 760,
-        "name": "Spain",
-        "tla": "ESP",
-        "logo": "https://crests.football-data.org/760.svg"
-      },
-      "away": {
-        "id": 762,
-        "name": "Argentina",
-        "tla": "ARG",
-        "logo": "https://crests.football-data.org/762.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    }
-  ]
+  "count": 0,
+  "fixtures": []
 }
