@@ -1,0 +1,45 @@
+{
+  "fixture_id": 560542,
+  "date": "2026-08-21T19:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 57,
+    "name": "Arsenal FC",
+    "tla": "ARS",
+    "logo": "https://crests.football-data.org/57.png",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 1076,
+    "name": "Coventry City FC",
+    "tla": "COV",
+    "logo": "https://crests.football-data.org/1076.png",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": []
+  },
+  "weather": "clear",
+  "generated_at": "2026-08-20T23:24:58.779821+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

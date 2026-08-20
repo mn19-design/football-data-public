@@ -1,15 +1,48 @@
 {
-  "generated_at": "2026-08-19T23:21:53.519950+00:00",
+  "generated_at": "2026-08-20T23:24:57.464498+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-08-20",
-    "2026-08-21"
+    "2026-08-21",
+    "2026-08-22"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 0,
-  "fixtures": []
+  "count": 1,
+  "fixtures": [
+    {
+      "id": 560542,
+      "date": "2026-08-21T19:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 1,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "tla": "ARS",
+        "logo": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 1076,
+        "name": "Coventry City FC",
+        "tla": "COV",
+        "logo": "https://crests.football-data.org/1076.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
 }
