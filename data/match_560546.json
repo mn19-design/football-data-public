@@ -1,0 +1,81 @@
+{
+  "fixture_id": 560546,
+  "date": "2026-08-22T14:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 62,
+    "name": "Everton FC",
+    "tla": "EVE",
+    "logo": "https://crests.football-data.org/62.png",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 354,
+    "name": "Crystal Palace FC",
+    "tla": "CRY",
+    "logo": "https://crests.football-data.org/354.png",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-05-10",
+        "home": "Crystal Palace FC",
+        "away": "Everton FC",
+        "score": "2-2",
+        "result": "D"
+      },
+      {
+        "date": "2025-10-05",
+        "home": "Everton FC",
+        "away": "Crystal Palace FC",
+        "score": "2-1",
+        "result": "W"
+      },
+      {
+        "date": "2025-02-15",
+        "home": "Crystal Palace FC",
+        "away": "Everton FC",
+        "score": "1-2",
+        "result": "W"
+      },
+      {
+        "date": "2024-09-28",
+        "home": "Everton FC",
+        "away": "Crystal Palace FC",
+        "score": "2-1",
+        "result": "W"
+      },
+      {
+        "date": "2024-02-19",
+        "home": "Everton FC",
+        "away": "Crystal Palace FC",
+        "score": "1-1",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-08-21T23:23:17.592783+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

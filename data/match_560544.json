@@ -1,0 +1,60 @@
+{
+  "fixture_id": 560544,
+  "date": "2026-08-22T14:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 349,
+    "name": "Ipswich Town FC",
+    "tla": "IPS",
+    "logo": "https://crests.football-data.org/349.png",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 71,
+    "name": "Sunderland AFC",
+    "tla": "SUN",
+    "logo": "https://crests.football-data.org/71.png",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2024-01-13",
+        "home": "Ipswich Town FC",
+        "away": "Sunderland AFC",
+        "score": "2-1",
+        "result": "W"
+      },
+      {
+        "date": "2023-08-06",
+        "home": "Sunderland AFC",
+        "away": "Ipswich Town FC",
+        "score": "1-2",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-08-21T23:23:17.592783+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
