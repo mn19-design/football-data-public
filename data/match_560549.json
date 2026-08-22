@@ -1,0 +1,81 @@
+{
+  "fixture_id": 560549,
+  "date": "2026-08-23T13:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 397,
+    "name": "Brighton & Hove Albion FC",
+    "tla": "BHA",
+    "logo": "https://crests.football-data.org/397.png",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 58,
+    "name": "Aston Villa FC",
+    "tla": "AVL",
+    "logo": "https://crests.football-data.org/58.png",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-02-11",
+        "home": "Aston Villa FC",
+        "away": "Brighton & Hove Albion FC",
+        "score": "1-0",
+        "result": "L"
+      },
+      {
+        "date": "2025-12-03",
+        "home": "Brighton & Hove Albion FC",
+        "away": "Aston Villa FC",
+        "score": "3-4",
+        "result": "L"
+      },
+      {
+        "date": "2025-04-02",
+        "home": "Brighton & Hove Albion FC",
+        "away": "Aston Villa FC",
+        "score": "0-3",
+        "result": "L"
+      },
+      {
+        "date": "2024-12-30",
+        "home": "Aston Villa FC",
+        "away": "Brighton & Hove Albion FC",
+        "score": "2-2",
+        "result": "D"
+      },
+      {
+        "date": "2024-05-05",
+        "home": "Brighton & Hove Albion FC",
+        "away": "Aston Villa FC",
+        "score": "1-0",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-08-22T23:20:20.322141+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
