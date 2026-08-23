@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-22T23:20:18.908814+00:00",
+  "generated_at": "2026-08-23T23:20:17.660587+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-08-23",
-    "2026-08-24"
+    "2026-08-24",
+    "2026-08-25"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 3,
+  "count": 1,
   "fixtures": [
     {
-      "id": 560548,
-      "date": "2026-08-23T13:00:00Z",
+      "id": 560551,
+      "date": "2026-08-24T19:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 1,
@@ -28,80 +28,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 65,
-        "name": "Manchester City FC",
-        "tla": "MCI",
-        "logo": "https://crests.football-data.org/65.png"
+        "id": 63,
+        "name": "Fulham FC",
+        "tla": "FUL",
+        "logo": "https://crests.football-data.org/63.png"
       },
       "away": {
-        "id": 1044,
-        "name": "AFC Bournemouth",
-        "tla": "BOU",
-        "logo": "https://crests.football-data.org/bournemouth.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 560549,
-      "date": "2026-08-23T13:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 1,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 397,
-        "name": "Brighton & Hove Albion FC",
-        "tla": "BHA",
-        "logo": "https://crests.football-data.org/397.png"
-      },
-      "away": {
-        "id": 58,
-        "name": "Aston Villa FC",
-        "tla": "AVL",
-        "logo": "https://crests.football-data.org/58.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 560550,
-      "date": "2026-08-23T15:30:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 1,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 67,
-        "name": "Newcastle United FC",
-        "tla": "NEW",
-        "logo": "https://crests.football-data.org/67.png"
-      },
-      "away": {
-        "id": 64,
-        "name": "Liverpool FC",
-        "tla": "LIV",
-        "logo": "https://crests.football-data.org/64.png"
+        "id": 61,
+        "name": "Chelsea FC",
+        "tla": "CHE",
+        "logo": "https://crests.football-data.org/61.png"
       },
       "goals": {
         "home": null,
