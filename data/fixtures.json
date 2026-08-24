@@ -1,48 +1,15 @@
 {
-  "generated_at": "2026-08-23T23:20:17.660587+00:00",
+  "generated_at": "2026-08-24T23:21:30.289868+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-08-24",
-    "2026-08-25"
+    "2026-08-25",
+    "2026-08-26"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 1,
-  "fixtures": [
-    {
-      "id": 560551,
-      "date": "2026-08-24T19:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 1,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 63,
-        "name": "Fulham FC",
-        "tla": "FUL",
-        "logo": "https://crests.football-data.org/63.png"
-      },
-      "away": {
-        "id": 61,
-        "name": "Chelsea FC",
-        "tla": "CHE",
-        "logo": "https://crests.football-data.org/61.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    }
-  ]
+  "count": 0,
+  "fixtures": []
 }
