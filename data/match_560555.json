@@ -1,0 +1,78 @@
+{
+  "fixture_id": 560555,
+  "date": "2026-08-28T19:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 354,
+    "name": "Crystal Palace FC",
+    "tla": "CRY",
+    "logo": "https://crests.football-data.org/354.png",
+    "form": [
+      "L"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 65,
+    "name": "Manchester City FC",
+    "tla": "MCI",
+    "logo": "https://crests.football-data.org/65.png",
+    "form": [
+      "W"
+    ],
+    "restDays": 5,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-05-13",
+        "home": "Manchester City FC",
+        "away": "Crystal Palace FC",
+        "score": "3-0",
+        "result": "L"
+      },
+      {
+        "date": "2025-12-14",
+        "home": "Crystal Palace FC",
+        "away": "Manchester City FC",
+        "score": "0-3",
+        "result": "L"
+      },
+      {
+        "date": "2025-04-12",
+        "home": "Manchester City FC",
+        "away": "Crystal Palace FC",
+        "score": "5-2",
+        "result": "L"
+      },
+      {
+        "date": "2024-12-07",
+        "home": "Crystal Palace FC",
+        "away": "Manchester City FC",
+        "score": "2-2",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-08-28T06:46:49.067286+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
