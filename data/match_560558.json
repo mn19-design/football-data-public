@@ -1,0 +1,78 @@
+{
+  "fixture_id": 560558,
+  "date": "2026-08-29T16:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 73,
+    "name": "Tottenham Hotspur FC",
+    "tla": "TOT",
+    "logo": "https://crests.football-data.org/73.png",
+    "form": [
+      "L"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 67,
+    "name": "Newcastle United FC",
+    "tla": "NEW",
+    "logo": "https://crests.football-data.org/67.png",
+    "form": [
+      "D"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-02-10",
+        "home": "Tottenham Hotspur FC",
+        "away": "Newcastle United FC",
+        "score": "1-2",
+        "result": "L"
+      },
+      {
+        "date": "2025-12-02",
+        "home": "Newcastle United FC",
+        "away": "Tottenham Hotspur FC",
+        "score": "2-2",
+        "result": "D"
+      },
+      {
+        "date": "2025-01-04",
+        "home": "Tottenham Hotspur FC",
+        "away": "Newcastle United FC",
+        "score": "1-2",
+        "result": "L"
+      },
+      {
+        "date": "2024-09-01",
+        "home": "Newcastle United FC",
+        "away": "Tottenham Hotspur FC",
+        "score": "2-1",
+        "result": "L"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-08-29T04:01:55.979727+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

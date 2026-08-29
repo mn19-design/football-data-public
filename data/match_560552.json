@@ -1,0 +1,85 @@
+{
+  "fixture_id": 560552,
+  "date": "2026-08-29T11:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 64,
+    "name": "Liverpool FC",
+    "tla": "LIV",
+    "logo": "https://crests.football-data.org/64.png",
+    "form": [
+      "D"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 351,
+    "name": "Nottingham Forest FC",
+    "tla": "NOT",
+    "logo": "https://crests.football-data.org/351.png",
+    "form": [
+      "L"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-02-22",
+        "home": "Nottingham Forest FC",
+        "away": "Liverpool FC",
+        "score": "0-1",
+        "result": "W"
+      },
+      {
+        "date": "2025-11-22",
+        "home": "Liverpool FC",
+        "away": "Nottingham Forest FC",
+        "score": "0-3",
+        "result": "L"
+      },
+      {
+        "date": "2025-01-14",
+        "home": "Nottingham Forest FC",
+        "away": "Liverpool FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2024-09-14",
+        "home": "Liverpool FC",
+        "away": "Nottingham Forest FC",
+        "score": "0-1",
+        "result": "L"
+      },
+      {
+        "date": "2024-03-02",
+        "home": "Nottingham Forest FC",
+        "away": "Liverpool FC",
+        "score": "0-1",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-08-29T04:01:55.979727+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
