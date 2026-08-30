@@ -1,0 +1,85 @@
+{
+  "fixture_id": 560559,
+  "date": "2026-08-30T13:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 341,
+    "name": "Leeds United FC",
+    "tla": "LEE",
+    "logo": "https://crests.football-data.org/341.png",
+    "form": [
+      "W"
+    ],
+    "restDays": 8,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 402,
+    "name": "Brentford FC",
+    "tla": "BRE",
+    "logo": "https://crests.football-data.org/402.png",
+    "form": [
+      "W"
+    ],
+    "restDays": 8,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-03-21",
+        "home": "Leeds United FC",
+        "away": "Brentford FC",
+        "score": "0-0",
+        "result": "D"
+      },
+      {
+        "date": "2025-12-14",
+        "home": "Brentford FC",
+        "away": "Leeds United FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2023-01-22",
+        "home": "Leeds United FC",
+        "away": "Brentford FC",
+        "score": "0-0",
+        "result": "D"
+      },
+      {
+        "date": "2022-09-03",
+        "home": "Brentford FC",
+        "away": "Leeds United FC",
+        "score": "5-2",
+        "result": "L"
+      },
+      {
+        "date": "2022-05-22",
+        "home": "Brentford FC",
+        "away": "Leeds United FC",
+        "score": "1-2",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-08-30T01:06:36.851967+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

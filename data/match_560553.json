@@ -1,0 +1,64 @@
+{
+  "fixture_id": 560553,
+  "date": "2026-08-30T15:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 66,
+    "name": "Manchester United FC",
+    "tla": "MUN",
+    "logo": "https://crests.football-data.org/66.png",
+    "form": [
+      "L"
+    ],
+    "restDays": 8,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 349,
+    "name": "Ipswich Town FC",
+    "tla": "IPS",
+    "logo": "https://crests.football-data.org/349.png",
+    "form": [
+      "W"
+    ],
+    "restDays": 8,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2025-02-26",
+        "home": "Manchester United FC",
+        "away": "Ipswich Town FC",
+        "score": "3-2",
+        "result": "W"
+      },
+      {
+        "date": "2024-11-24",
+        "home": "Ipswich Town FC",
+        "away": "Manchester United FC",
+        "score": "1-1",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-08-30T01:06:36.851967+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

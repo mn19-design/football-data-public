@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-29T04:01:54.628295+00:00",
+  "generated_at": "2026-08-30T01:06:35.429085+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-08-29",
-    "2026-08-30"
+    "2026-08-30",
+    "2026-08-31"
   ],
   "competitions": [
     "WC",
@@ -13,8 +13,8 @@
   "count": 4,
   "fixtures": [
     {
-      "id": 560552,
-      "date": "2026-08-29T11:30:00Z",
+      "id": 560556,
+      "date": "2026-08-30T13:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 2,
@@ -28,16 +28,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 64,
-        "name": "Liverpool FC",
-        "tla": "LIV",
-        "logo": "https://crests.football-data.org/64.png"
+        "id": 61,
+        "name": "Chelsea FC",
+        "tla": "CHE",
+        "logo": "https://crests.football-data.org/61.png"
       },
       "away": {
-        "id": 351,
-        "name": "Nottingham Forest FC",
-        "tla": "NOT",
-        "logo": "https://crests.football-data.org/351.png"
+        "id": 397,
+        "name": "Brighton & Hove Albion FC",
+        "tla": "BHA",
+        "logo": "https://crests.football-data.org/397.png"
       },
       "goals": {
         "home": null,
@@ -45,8 +45,8 @@
       }
     },
     {
-      "id": 560560,
-      "date": "2026-08-29T14:00:00Z",
+      "id": 560554,
+      "date": "2026-08-30T13:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 2,
@@ -60,16 +60,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 1044,
-        "name": "AFC Bournemouth",
-        "tla": "BOU",
-        "logo": "https://crests.football-data.org/bournemouth.png"
+        "id": 71,
+        "name": "Sunderland AFC",
+        "tla": "SUN",
+        "logo": "https://crests.football-data.org/71.png"
       },
       "away": {
-        "id": 62,
-        "name": "Everton FC",
-        "tla": "EVE",
-        "logo": "https://crests.football-data.org/62.png"
+        "id": 63,
+        "name": "Fulham FC",
+        "tla": "FUL",
+        "logo": "https://crests.football-data.org/63.png"
       },
       "goals": {
         "home": null,
@@ -77,8 +77,8 @@
       }
     },
     {
-      "id": 560561,
-      "date": "2026-08-29T14:00:00Z",
+      "id": 560559,
+      "date": "2026-08-30T13:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 2,
@@ -92,16 +92,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 1076,
-        "name": "Coventry City FC",
-        "tla": "COV",
-        "logo": "https://crests.football-data.org/1076.png"
+        "id": 341,
+        "name": "Leeds United FC",
+        "tla": "LEE",
+        "logo": "https://crests.football-data.org/341.png"
       },
       "away": {
-        "id": 322,
-        "name": "Hull City AFC",
-        "tla": "HUL",
-        "logo": "https://crests.football-data.org/322.png"
+        "id": 402,
+        "name": "Brentford FC",
+        "tla": "BRE",
+        "logo": "https://crests.football-data.org/402.png"
       },
       "goals": {
         "home": null,
@@ -109,8 +109,8 @@
       }
     },
     {
-      "id": 560558,
-      "date": "2026-08-29T16:30:00Z",
+      "id": 560553,
+      "date": "2026-08-30T15:30:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 2,
@@ -124,16 +124,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 73,
-        "name": "Tottenham Hotspur FC",
-        "tla": "TOT",
-        "logo": "https://crests.football-data.org/73.png"
+        "id": 66,
+        "name": "Manchester United FC",
+        "tla": "MUN",
+        "logo": "https://crests.football-data.org/66.png"
       },
       "away": {
-        "id": 67,
-        "name": "Newcastle United FC",
-        "tla": "NEW",
-        "logo": "https://crests.football-data.org/67.png"
+        "id": 349,
+        "name": "Ipswich Town FC",
+        "tla": "IPS",
+        "logo": "https://crests.football-data.org/349.png"
       },
       "goals": {
         "home": null,
