@@ -1,48 +1,15 @@
 {
-  "generated_at": "2026-08-31T01:06:47.706078+00:00",
+  "generated_at": "2026-09-01T01:41:20.586223+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-08-31",
-    "2026-09-01"
+    "2026-09-01",
+    "2026-09-02"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 1,
-  "fixtures": [
-    {
-      "id": 560557,
-      "date": "2026-08-31T19:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 2,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 58,
-        "name": "Aston Villa FC",
-        "tla": "AVL",
-        "logo": "https://crests.football-data.org/58.png"
-      },
-      "away": {
-        "id": 57,
-        "name": "Arsenal FC",
-        "tla": "ARS",
-        "logo": "https://crests.football-data.org/57.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    }
-  ]
+  "count": 0,
+  "fixtures": []
 }
