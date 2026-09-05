@@ -1,0 +1,80 @@
+{
+  "fixture_id": 560568,
+  "date": "2026-09-05T14:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 63,
+    "name": "Fulham FC",
+    "tla": "FUL",
+    "logo": "https://crests.football-data.org/63.png",
+    "form": [
+      "L",
+      "L"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 354,
+    "name": "Crystal Palace FC",
+    "tla": "CRY",
+    "logo": "https://crests.football-data.org/354.png",
+    "form": [
+      "L",
+      "L"
+    ],
+    "restDays": 8,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-01-01",
+        "home": "Crystal Palace FC",
+        "away": "Fulham FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2025-12-07",
+        "home": "Fulham FC",
+        "away": "Crystal Palace FC",
+        "score": "1-2",
+        "result": "L"
+      },
+      {
+        "date": "2025-02-22",
+        "home": "Fulham FC",
+        "away": "Crystal Palace FC",
+        "score": "0-2",
+        "result": "L"
+      },
+      {
+        "date": "2024-11-09",
+        "home": "Crystal Palace FC",
+        "away": "Fulham FC",
+        "score": "0-2",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-05T00:38:12.131512+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

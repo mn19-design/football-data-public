@@ -1,0 +1,80 @@
+{
+  "fixture_id": 560571,
+  "date": "2026-09-05T11:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 67,
+    "name": "Newcastle United FC",
+    "tla": "NEW",
+    "logo": "https://crests.football-data.org/67.png",
+    "form": [
+      "D",
+      "W"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 1044,
+    "name": "AFC Bournemouth",
+    "tla": "BOU",
+    "logo": "https://crests.football-data.org/bournemouth.png",
+    "form": [
+      "L",
+      "D"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-04-18",
+        "home": "Newcastle United FC",
+        "away": "AFC Bournemouth",
+        "score": "1-2",
+        "result": "L"
+      },
+      {
+        "date": "2025-09-21",
+        "home": "AFC Bournemouth",
+        "away": "Newcastle United FC",
+        "score": "0-0",
+        "result": "D"
+      },
+      {
+        "date": "2025-01-18",
+        "home": "Newcastle United FC",
+        "away": "AFC Bournemouth",
+        "score": "1-4",
+        "result": "L"
+      },
+      {
+        "date": "2024-08-25",
+        "home": "AFC Bournemouth",
+        "away": "Newcastle United FC",
+        "score": "1-1",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-05T00:38:12.131512+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

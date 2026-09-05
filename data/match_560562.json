@@ -1,0 +1,87 @@
+{
+  "fixture_id": 560562,
+  "date": "2026-09-05T14:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 351,
+    "name": "Nottingham Forest FC",
+    "tla": "NOT",
+    "logo": "https://crests.football-data.org/351.png",
+    "form": [
+      "L",
+      "D"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 73,
+    "name": "Tottenham Hotspur FC",
+    "tla": "TOT",
+    "logo": "https://crests.football-data.org/73.png",
+    "form": [
+      "L",
+      "L"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-03-22",
+        "home": "Tottenham Hotspur FC",
+        "away": "Nottingham Forest FC",
+        "score": "0-3",
+        "result": "W"
+      },
+      {
+        "date": "2025-12-14",
+        "home": "Nottingham Forest FC",
+        "away": "Tottenham Hotspur FC",
+        "score": "3-0",
+        "result": "W"
+      },
+      {
+        "date": "2025-04-21",
+        "home": "Tottenham Hotspur FC",
+        "away": "Nottingham Forest FC",
+        "score": "1-2",
+        "result": "W"
+      },
+      {
+        "date": "2024-12-26",
+        "home": "Nottingham Forest FC",
+        "away": "Tottenham Hotspur FC",
+        "score": "1-0",
+        "result": "W"
+      },
+      {
+        "date": "2024-04-07",
+        "home": "Tottenham Hotspur FC",
+        "away": "Nottingham Forest FC",
+        "score": "3-1",
+        "result": "L"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-05T00:38:12.131512+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
