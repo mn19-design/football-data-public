@@ -1,0 +1,73 @@
+{
+  "fixture_id": 560570,
+  "date": "2026-09-06T15:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 57,
+    "name": "Arsenal FC",
+    "tla": "ARS",
+    "logo": "https://crests.football-data.org/57.png",
+    "form": [
+      "W",
+      "W"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 61,
+    "name": "Chelsea FC",
+    "tla": "CHE",
+    "logo": "https://crests.football-data.org/61.png",
+    "form": [
+      "W",
+      "W"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-03-01",
+        "home": "Arsenal FC",
+        "away": "Chelsea FC",
+        "score": "2-1",
+        "result": "W"
+      },
+      {
+        "date": "2025-11-30",
+        "home": "Chelsea FC",
+        "away": "Arsenal FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2025-03-16",
+        "home": "Arsenal FC",
+        "away": "Chelsea FC",
+        "score": "1-0",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-06T00:36:45.533972+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "fixture_id": 560567,
+  "date": "2026-09-06T13:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 62,
+    "name": "Everton FC",
+    "tla": "EVE",
+    "logo": "https://crests.football-data.org/62.png",
+    "form": [
+      "W",
+      "D"
+    ],
+    "restDays": 8,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 66,
+    "name": "Manchester United FC",
+    "tla": "MUN",
+    "logo": "https://crests.football-data.org/66.png",
+    "form": [
+      "L",
+      "W"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-02-23",
+        "home": "Everton FC",
+        "away": "Manchester United FC",
+        "score": "0-1",
+        "result": "L"
+      },
+      {
+        "date": "2025-11-24",
+        "home": "Manchester United FC",
+        "away": "Everton FC",
+        "score": "0-1",
+        "result": "W"
+      },
+      {
+        "date": "2025-02-22",
+        "home": "Everton FC",
+        "away": "Manchester United FC",
+        "score": "2-2",
+        "result": "D"
+      },
+      {
+        "date": "2024-12-01",
+        "home": "Manchester United FC",
+        "away": "Everton FC",
+        "score": "4-0",
+        "result": "L"
+      },
+      {
+        "date": "2024-03-09",
+        "home": "Manchester United FC",
+        "away": "Everton FC",
+        "score": "2-0",
+        "result": "L"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-06T00:36:45.533972+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
