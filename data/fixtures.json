@@ -1,80 +1,15 @@
 {
-  "generated_at": "2026-09-06T00:36:44.142381+00:00",
+  "generated_at": "2026-09-07T00:42:58.413883+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-09-06",
-    "2026-09-07"
+    "2026-09-07",
+    "2026-09-08"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 2,
-  "fixtures": [
-    {
-      "id": 560567,
-      "date": "2026-09-06T13:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 3,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 62,
-        "name": "Everton FC",
-        "tla": "EVE",
-        "logo": "https://crests.football-data.org/62.png"
-      },
-      "away": {
-        "id": 66,
-        "name": "Manchester United FC",
-        "tla": "MUN",
-        "logo": "https://crests.football-data.org/66.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 560570,
-      "date": "2026-09-06T15:30:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 3,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 57,
-        "name": "Arsenal FC",
-        "tla": "ARS",
-        "logo": "https://crests.football-data.org/57.png"
-      },
-      "away": {
-        "id": 61,
-        "name": "Chelsea FC",
-        "tla": "CHE",
-        "logo": "https://crests.football-data.org/61.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    }
-  ]
+  "count": 0,
+  "fixtures": []
 }
