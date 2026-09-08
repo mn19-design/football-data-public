@@ -1,0 +1,83 @@
+{
+  "fixture_id": 575325,
+  "date": "2026-09-08T19:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "CL",
+    "name": "UEFA Champions League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 86,
+    "name": "Real Madrid CF",
+    "tla": "RMA",
+    "logo": "https://crests.football-data.org/86.png",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "L"
+    ],
+    "restDays": 4,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 108,
+    "name": "FC Internazionale Milano",
+    "tla": "INT",
+    "logo": "https://crests.football-data.org/108.png",
+    "form": [
+      "W",
+      "W",
+      "W"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2021-12-07",
+        "home": "Real Madrid CF",
+        "away": "FC Internazionale Milano",
+        "score": "2-0",
+        "result": "W"
+      },
+      {
+        "date": "2021-09-15",
+        "home": "FC Internazionale Milano",
+        "away": "Real Madrid CF",
+        "score": "0-1",
+        "result": "W"
+      },
+      {
+        "date": "2020-11-25",
+        "home": "FC Internazionale Milano",
+        "away": "Real Madrid CF",
+        "score": "0-2",
+        "result": "W"
+      },
+      {
+        "date": "2020-11-03",
+        "home": "Real Madrid CF",
+        "away": "FC Internazionale Milano",
+        "score": "3-2",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-08T00:56:10.780683+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

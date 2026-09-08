@@ -1,15 +1,208 @@
 {
-  "generated_at": "2026-09-07T00:42:58.413883+00:00",
+  "generated_at": "2026-09-08T00:56:10.676408+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-09-07",
-    "2026-09-08"
+    "2026-09-08",
+    "2026-09-09"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 0,
-  "fixtures": []
+  "count": 6,
+  "fixtures": [
+    {
+      "id": 575323,
+      "date": "2026-09-08T16:45:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 1,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 851,
+        "name": "Club Brugge KV",
+        "tla": "BRU",
+        "logo": "https://crests.football-data.org/851.png"
+      },
+      "away": {
+        "id": 58,
+        "name": "Aston Villa FC",
+        "tla": "AVL",
+        "logo": "https://crests.football-data.org/58.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575324,
+      "date": "2026-09-08T16:45:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 1,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 1899,
+        "name": "PAE AEK",
+        "tla": "AEK",
+        "logo": "https://crests.football-data.org/1899.png"
+      },
+      "away": {
+        "id": 2016,
+        "name": "LASK Linz",
+        "tla": "LIN",
+        "logo": "https://crests.football-data.org/2016.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575325,
+      "date": "2026-09-08T19:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 1,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "tla": "RMA",
+        "logo": "https://crests.football-data.org/86.png"
+      },
+      "away": {
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "tla": "INT",
+        "logo": "https://crests.football-data.org/108.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575327,
+      "date": "2026-09-08T19:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 1,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "tla": "BVB",
+        "logo": "https://crests.football-data.org/4.png"
+      },
+      "away": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "tla": "VIL",
+        "logo": "https://crests.football-data.org/94.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575328,
+      "date": "2026-09-08T19:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 1,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 521,
+        "name": "Lille OSC",
+        "tla": "LIL",
+        "logo": "https://crests.football-data.org/521.png"
+      },
+      "away": {
+        "id": 90,
+        "name": "Real Betis Balompié",
+        "tla": "BET",
+        "logo": "https://crests.football-data.org/90.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575326,
+      "date": "2026-09-08T19:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 1,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 503,
+        "name": "FC Porto",
+        "tla": "FCP",
+        "logo": "https://crests.football-data.org/503.png"
+      },
+      "away": {
+        "id": 65,
+        "name": "Manchester City FC",
+        "tla": "MCI",
+        "logo": "https://crests.football-data.org/65.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
 }
