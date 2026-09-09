@@ -1,0 +1,56 @@
+{
+  "fixture_id": 575329,
+  "date": "2026-09-09T16:45:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "CL",
+    "name": "UEFA Champions League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 81,
+    "name": "FC Barcelona",
+    "tla": "FCB",
+    "logo": "https://crests.football-data.org/81.png",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 675,
+    "name": "Feyenoord Rotterdam",
+    "tla": "FEY",
+    "logo": "https://crests.football-data.org/675.png",
+    "form": [
+      "W",
+      "D",
+      "W",
+      "D",
+      "W"
+    ],
+    "restDays": 4,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "last5": []
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-09T01:03:53.161110+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
