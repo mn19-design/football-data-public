@@ -1,0 +1,59 @@
+{
+  "fixture_id": 575336,
+  "date": "2026-09-10T16:45:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "CL",
+    "name": "UEFA Champions League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 674,
+    "name": "PSV",
+    "tla": "PSV",
+    "logo": "https://crests.football-data.org/674.png",
+    "form": [
+      "D",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "restDays": 5,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 1887,
+    "name": "FK Shakhtar Donetsk",
+    "tla": "SHD",
+    "logo": "https://crests.football-data.org/1887.png",
+    "form": [],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2024-11-27",
+        "home": "PSV",
+        "away": "FK Shakhtar Donetsk",
+        "score": "3-2",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-10T00:52:30.179577+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
