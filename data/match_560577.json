@@ -1,0 +1,69 @@
+{
+  "fixture_id": 560577,
+  "date": "2026-09-12T19:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 71,
+    "name": "Sunderland AFC",
+    "tla": "SUN",
+    "logo": "https://crests.football-data.org/71.png",
+    "form": [
+      "L",
+      "W",
+      "D"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 57,
+    "name": "Arsenal FC",
+    "tla": "ARS",
+    "logo": "https://crests.football-data.org/57.png",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-02-07",
+        "home": "Arsenal FC",
+        "away": "Sunderland AFC",
+        "score": "3-0",
+        "result": "L"
+      },
+      {
+        "date": "2025-11-08",
+        "home": "Sunderland AFC",
+        "away": "Arsenal FC",
+        "score": "2-2",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-12T00:55:43.191002+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

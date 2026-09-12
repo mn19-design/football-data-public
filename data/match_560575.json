@@ -1,0 +1,89 @@
+{
+  "fixture_id": 560575,
+  "date": "2026-09-12T16:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 73,
+    "name": "Tottenham Hotspur FC",
+    "tla": "TOT",
+    "logo": "https://crests.football-data.org/73.png",
+    "form": [
+      "L",
+      "L",
+      "D"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 62,
+    "name": "Everton FC",
+    "tla": "EVE",
+    "logo": "https://crests.football-data.org/62.png",
+    "form": [
+      "W",
+      "D",
+      "D"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-05-24",
+        "home": "Tottenham Hotspur FC",
+        "away": "Everton FC",
+        "score": "1-0",
+        "result": "W"
+      },
+      {
+        "date": "2025-10-26",
+        "home": "Everton FC",
+        "away": "Tottenham Hotspur FC",
+        "score": "0-3",
+        "result": "W"
+      },
+      {
+        "date": "2025-01-19",
+        "home": "Everton FC",
+        "away": "Tottenham Hotspur FC",
+        "score": "3-2",
+        "result": "L"
+      },
+      {
+        "date": "2024-08-24",
+        "home": "Tottenham Hotspur FC",
+        "away": "Everton FC",
+        "score": "4-0",
+        "result": "W"
+      },
+      {
+        "date": "2024-02-03",
+        "home": "Everton FC",
+        "away": "Tottenham Hotspur FC",
+        "score": "2-2",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-12T00:55:43.191002+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

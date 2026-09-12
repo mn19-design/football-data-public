@@ -1,0 +1,90 @@
+{
+  "fixture_id": 560573,
+  "date": "2026-09-12T14:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 64,
+    "name": "Liverpool FC",
+    "tla": "LIV",
+    "logo": "https://crests.football-data.org/64.png",
+    "form": [
+      "D",
+      "D",
+      "W",
+      "W"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 63,
+    "name": "Fulham FC",
+    "tla": "FUL",
+    "logo": "https://crests.football-data.org/63.png",
+    "form": [
+      "L",
+      "L",
+      "L"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-04-11",
+        "home": "Liverpool FC",
+        "away": "Fulham FC",
+        "score": "2-0",
+        "result": "W"
+      },
+      {
+        "date": "2026-01-04",
+        "home": "Fulham FC",
+        "away": "Liverpool FC",
+        "score": "2-2",
+        "result": "D"
+      },
+      {
+        "date": "2025-04-06",
+        "home": "Fulham FC",
+        "away": "Liverpool FC",
+        "score": "3-2",
+        "result": "L"
+      },
+      {
+        "date": "2024-12-14",
+        "home": "Liverpool FC",
+        "away": "Fulham FC",
+        "score": "2-2",
+        "result": "D"
+      },
+      {
+        "date": "2024-04-21",
+        "home": "Fulham FC",
+        "away": "Liverpool FC",
+        "score": "1-3",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-12T00:55:43.191002+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

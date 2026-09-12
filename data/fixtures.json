@@ -1,15 +1,240 @@
 {
-  "generated_at": "2026-09-11T00:50:46.014031+00:00",
+  "generated_at": "2026-09-12T00:55:41.758061+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-09-11",
-    "2026-09-12"
+    "2026-09-12",
+    "2026-09-13"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 0,
-  "fixtures": []
+  "count": 7,
+  "fixtures": [
+    {
+      "id": 560573,
+      "date": "2026-09-12T14:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 4,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "tla": "LIV",
+        "logo": "https://crests.football-data.org/64.png"
+      },
+      "away": {
+        "id": 63,
+        "name": "Fulham FC",
+        "tla": "FUL",
+        "logo": "https://crests.football-data.org/63.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560576,
+      "date": "2026-09-12T14:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 4,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 1044,
+        "name": "AFC Bournemouth",
+        "tla": "BOU",
+        "logo": "https://crests.football-data.org/bournemouth.png"
+      },
+      "away": {
+        "id": 402,
+        "name": "Brentford FC",
+        "tla": "BRE",
+        "logo": "https://crests.football-data.org/402.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560581,
+      "date": "2026-09-12T14:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 4,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "tla": "CHE",
+        "logo": "https://crests.football-data.org/61.png"
+      },
+      "away": {
+        "id": 322,
+        "name": "Hull City AFC",
+        "tla": "HUL",
+        "logo": "https://crests.football-data.org/322.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560572,
+      "date": "2026-09-12T14:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 4,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 354,
+        "name": "Crystal Palace FC",
+        "tla": "CRY",
+        "logo": "https://crests.football-data.org/354.png"
+      },
+      "away": {
+        "id": 349,
+        "name": "Ipswich Town FC",
+        "tla": "IPS",
+        "logo": "https://crests.football-data.org/349.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560574,
+      "date": "2026-09-12T14:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 4,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 58,
+        "name": "Aston Villa FC",
+        "tla": "AVL",
+        "logo": "https://crests.football-data.org/58.png"
+      },
+      "away": {
+        "id": 351,
+        "name": "Nottingham Forest FC",
+        "tla": "NOT",
+        "logo": "https://crests.football-data.org/351.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560575,
+      "date": "2026-09-12T16:30:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 4,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "tla": "TOT",
+        "logo": "https://crests.football-data.org/73.png"
+      },
+      "away": {
+        "id": 62,
+        "name": "Everton FC",
+        "tla": "EVE",
+        "logo": "https://crests.football-data.org/62.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560577,
+      "date": "2026-09-12T19:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 4,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 71,
+        "name": "Sunderland AFC",
+        "tla": "SUN",
+        "logo": "https://crests.football-data.org/71.png"
+      },
+      "away": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "tla": "ARS",
+        "logo": "https://crests.football-data.org/57.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
 }
