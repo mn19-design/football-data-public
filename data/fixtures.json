@@ -1,48 +1,15 @@
 {
-  "generated_at": "2026-09-14T00:46:50.822004+00:00",
+  "generated_at": "2026-09-15T01:11:27.098370+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-09-14",
-    "2026-09-15"
+    "2026-09-15",
+    "2026-09-16"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 1,
-  "fixtures": [
-    {
-      "id": 560579,
-      "date": "2026-09-14T19:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 4,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 341,
-        "name": "Leeds United FC",
-        "tla": "LEE",
-        "logo": "https://crests.football-data.org/341.png"
-      },
-      "away": {
-        "id": 67,
-        "name": "Newcastle United FC",
-        "tla": "NEW",
-        "logo": "https://crests.football-data.org/67.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    }
-  ]
+  "count": 0,
+  "fixtures": []
 }
