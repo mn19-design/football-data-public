@@ -1,15 +1,48 @@
 {
-  "generated_at": "2026-09-17T01:05:58.731774+00:00",
+  "generated_at": "2026-09-18T01:04:09.203426+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-09-17",
-    "2026-09-18"
+    "2026-09-18",
+    "2026-09-19"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 0,
-  "fixtures": []
+  "count": 1,
+  "fixtures": [
+    {
+      "id": 560591,
+      "date": "2026-09-18T19:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 5,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 402,
+        "name": "Brentford FC",
+        "tla": "BRE",
+        "logo": "https://crests.football-data.org/402.png"
+      },
+      "away": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "tla": "CHE",
+        "logo": "https://crests.football-data.org/61.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
 }
