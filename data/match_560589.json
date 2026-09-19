@@ -1,0 +1,84 @@
+{
+  "fixture_id": 560589,
+  "date": "2026-09-19T16:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 351,
+    "name": "Nottingham Forest FC",
+    "tla": "NOT",
+    "logo": "https://crests.football-data.org/351.png",
+    "form": [
+      "L",
+      "D",
+      "D",
+      "W"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 1076,
+    "name": "Coventry City FC",
+    "tla": "COV",
+    "logo": "https://crests.football-data.org/1076.png",
+    "form": [
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2022-04-06",
+        "home": "Nottingham Forest FC",
+        "away": "Coventry City FC",
+        "score": "2-0",
+        "result": "W"
+      },
+      {
+        "date": "2021-08-08",
+        "home": "Coventry City FC",
+        "away": "Nottingham Forest FC",
+        "score": "2-1",
+        "result": "L"
+      },
+      {
+        "date": "2021-02-02",
+        "home": "Coventry City FC",
+        "away": "Nottingham Forest FC",
+        "score": "1-2",
+        "result": "W"
+      },
+      {
+        "date": "2020-11-04",
+        "home": "Nottingham Forest FC",
+        "away": "Coventry City FC",
+        "score": "2-1",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-19T00:59:46.427952+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
