@@ -1,0 +1,91 @@
+{
+  "fixture_id": 560585,
+  "date": "2026-09-20T13:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 341,
+    "name": "Leeds United FC",
+    "tla": "LEE",
+    "logo": "https://crests.football-data.org/341.png",
+    "form": [
+      "W",
+      "D",
+      "D",
+      "W"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 354,
+    "name": "Crystal Palace FC",
+    "tla": "CRY",
+    "logo": "https://crests.football-data.org/354.png",
+    "form": [
+      "L",
+      "L",
+      "W",
+      "L"
+    ],
+    "restDays": 8,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-03-15",
+        "home": "Crystal Palace FC",
+        "away": "Leeds United FC",
+        "score": "0-0",
+        "result": "D"
+      },
+      {
+        "date": "2025-12-20",
+        "home": "Leeds United FC",
+        "away": "Crystal Palace FC",
+        "score": "4-1",
+        "result": "W"
+      },
+      {
+        "date": "2023-04-09",
+        "home": "Leeds United FC",
+        "away": "Crystal Palace FC",
+        "score": "1-5",
+        "result": "L"
+      },
+      {
+        "date": "2022-10-09",
+        "home": "Crystal Palace FC",
+        "away": "Leeds United FC",
+        "score": "2-1",
+        "result": "L"
+      },
+      {
+        "date": "2022-04-25",
+        "home": "Crystal Palace FC",
+        "away": "Leeds United FC",
+        "score": "0-0",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-20T00:42:42.296240+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

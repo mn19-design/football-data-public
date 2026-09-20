@@ -1,0 +1,85 @@
+{
+  "fixture_id": 560583,
+  "date": "2026-09-20T15:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 63,
+    "name": "Fulham FC",
+    "tla": "FUL",
+    "logo": "https://crests.football-data.org/63.png",
+    "form": [
+      "L",
+      "L",
+      "L",
+      "D"
+    ],
+    "restDays": 8,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 66,
+    "name": "Manchester United FC",
+    "tla": "MUN",
+    "logo": "https://crests.football-data.org/66.png",
+    "form": [
+      "L",
+      "W",
+      "D",
+      "W",
+      "L"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-02-01",
+        "home": "Manchester United FC",
+        "away": "Fulham FC",
+        "score": "3-2",
+        "result": "L"
+      },
+      {
+        "date": "2025-08-24",
+        "home": "Fulham FC",
+        "away": "Manchester United FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2025-01-26",
+        "home": "Fulham FC",
+        "away": "Manchester United FC",
+        "score": "0-1",
+        "result": "L"
+      },
+      {
+        "date": "2024-08-16",
+        "home": "Manchester United FC",
+        "away": "Fulham FC",
+        "score": "1-0",
+        "result": "L"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-09-20T00:42:42.296240+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
