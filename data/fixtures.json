@@ -1,144 +1,15 @@
 {
-  "generated_at": "2026-09-20T00:42:41.032263+00:00",
+  "generated_at": "2026-09-21T00:51:51.402207+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-09-20",
-    "2026-09-21"
+    "2026-09-21",
+    "2026-09-22"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 4,
-  "fixtures": [
-    {
-      "id": 560582,
-      "date": "2026-09-20T13:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 5,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 1044,
-        "name": "AFC Bournemouth",
-        "tla": "BOU",
-        "logo": "https://crests.football-data.org/bournemouth.png"
-      },
-      "away": {
-        "id": 64,
-        "name": "Liverpool FC",
-        "tla": "LIV",
-        "logo": "https://crests.football-data.org/64.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 560585,
-      "date": "2026-09-20T13:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 5,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 341,
-        "name": "Leeds United FC",
-        "tla": "LEE",
-        "logo": "https://crests.football-data.org/341.png"
-      },
-      "away": {
-        "id": 354,
-        "name": "Crystal Palace FC",
-        "tla": "CRY",
-        "logo": "https://crests.football-data.org/354.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 560590,
-      "date": "2026-09-20T13:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 5,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 65,
-        "name": "Manchester City FC",
-        "tla": "MCI",
-        "logo": "https://crests.football-data.org/65.png"
-      },
-      "away": {
-        "id": 71,
-        "name": "Sunderland AFC",
-        "tla": "SUN",
-        "logo": "https://crests.football-data.org/71.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 560583,
-      "date": "2026-09-20T15:30:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 5,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 63,
-        "name": "Fulham FC",
-        "tla": "FUL",
-        "logo": "https://crests.football-data.org/63.png"
-      },
-      "away": {
-        "id": 66,
-        "name": "Manchester United FC",
-        "tla": "MUN",
-        "logo": "https://crests.football-data.org/66.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    }
-  ]
+  "count": 0,
+  "fixtures": []
 }
