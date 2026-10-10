@@ -1,0 +1,93 @@
+{
+  "fixture_id": 560593,
+  "date": "2026-10-10T11:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 57,
+    "name": "Arsenal FC",
+    "tla": "ARS",
+    "logo": "https://crests.football-data.org/57.png",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "L"
+    ],
+    "restDays": 21,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 341,
+    "name": "Leeds United FC",
+    "tla": "LEE",
+    "logo": "https://crests.football-data.org/341.png",
+    "form": [
+      "W",
+      "D",
+      "D",
+      "W",
+      "D"
+    ],
+    "restDays": 20,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-01-31",
+        "home": "Leeds United FC",
+        "away": "Arsenal FC",
+        "score": "0-4",
+        "result": "W"
+      },
+      {
+        "date": "2025-08-23",
+        "home": "Arsenal FC",
+        "away": "Leeds United FC",
+        "score": "5-0",
+        "result": "W"
+      },
+      {
+        "date": "2023-04-01",
+        "home": "Arsenal FC",
+        "away": "Leeds United FC",
+        "score": "4-1",
+        "result": "W"
+      },
+      {
+        "date": "2022-10-16",
+        "home": "Leeds United FC",
+        "away": "Arsenal FC",
+        "score": "0-1",
+        "result": "W"
+      },
+      {
+        "date": "2022-05-08",
+        "home": "Arsenal FC",
+        "away": "Leeds United FC",
+        "score": "2-1",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-10-10T02:08:07.970048+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
