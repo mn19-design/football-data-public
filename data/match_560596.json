@@ -1,0 +1,93 @@
+{
+  "fixture_id": 560596,
+  "date": "2026-10-11T13:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 354,
+    "name": "Crystal Palace FC",
+    "tla": "CRY",
+    "logo": "https://crests.football-data.org/354.png",
+    "form": [
+      "L",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "restDays": 21,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 351,
+    "name": "Nottingham Forest FC",
+    "tla": "NOT",
+    "logo": "https://crests.football-data.org/351.png",
+    "form": [
+      "L",
+      "D",
+      "D",
+      "W",
+      "L"
+    ],
+    "restDays": 22,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-02-01",
+        "home": "Nottingham Forest FC",
+        "away": "Crystal Palace FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2025-08-24",
+        "home": "Crystal Palace FC",
+        "away": "Nottingham Forest FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2025-05-05",
+        "home": "Crystal Palace FC",
+        "away": "Nottingham Forest FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2024-10-21",
+        "home": "Nottingham Forest FC",
+        "away": "Crystal Palace FC",
+        "score": "1-0",
+        "result": "L"
+      },
+      {
+        "date": "2024-03-30",
+        "home": "Nottingham Forest FC",
+        "away": "Crystal Palace FC",
+        "score": "1-1",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-10-11T01:34:56.569161+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
