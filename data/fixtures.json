@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-11T01:34:55.298526+00:00",
+  "generated_at": "2026-10-12T02:05:43.378809+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 3,
+  "count": 1,
   "fixtures": [
     {
-      "id": 560596,
-      "date": "2026-10-11T13:00:00Z",
+      "id": 560597,
+      "date": "2026-10-12T19:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 6,
@@ -28,80 +28,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 354,
-        "name": "Crystal Palace FC",
-        "tla": "CRY",
-        "logo": "https://crests.football-data.org/354.png"
+        "id": 1076,
+        "name": "Coventry City FC",
+        "tla": "COV",
+        "logo": "https://crests.football-data.org/1076.png"
       },
       "away": {
-        "id": 351,
-        "name": "Nottingham Forest FC",
-        "tla": "NOT",
-        "logo": "https://crests.football-data.org/351.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 560594,
-      "date": "2026-10-11T13:00:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 6,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 322,
-        "name": "Hull City AFC",
-        "tla": "HUL",
-        "logo": "https://crests.football-data.org/322.png"
-      },
-      "away": {
-        "id": 62,
-        "name": "Everton FC",
-        "tla": "EVE",
-        "logo": "https://crests.football-data.org/62.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 560598,
-      "date": "2026-10-11T15:30:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 6,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 64,
-        "name": "Liverpool FC",
-        "tla": "LIV",
-        "logo": "https://crests.football-data.org/64.png"
-      },
-      "away": {
-        "id": 65,
-        "name": "Manchester City FC",
-        "tla": "MCI",
-        "logo": "https://crests.football-data.org/65.png"
+        "id": 67,
+        "name": "Newcastle United FC",
+        "tla": "NEW",
+        "logo": "https://crests.football-data.org/67.png"
       },
       "goals": {
         "home": null,
