@@ -1,0 +1,53 @@
+{
+  "fixture_id": 575343,
+  "date": "2026-10-13T19:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "CL",
+    "name": "UEFA Champions League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 108,
+    "name": "FC Internazionale Milano",
+    "tla": "INT",
+    "logo": "https://crests.football-data.org/108.png",
+    "form": [
+      "W",
+      "L",
+      "W",
+      "D",
+      "W"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 851,
+    "name": "Club Brugge KV",
+    "tla": "BRU",
+    "logo": "https://crests.football-data.org/851.png",
+    "form": [
+      "L"
+    ],
+    "restDays": 35,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "last5": []
+  },
+  "weather": "clear",
+  "generated_at": "2026-10-13T03:22:09.437546+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
