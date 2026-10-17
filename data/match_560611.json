@@ -1,0 +1,93 @@
+{
+  "fixture_id": 560611,
+  "date": "2026-10-17T14:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 402,
+    "name": "Brentford FC",
+    "tla": "BRE",
+    "logo": "https://crests.football-data.org/402.png",
+    "form": [
+      "D",
+      "D",
+      "D",
+      "W",
+      "D"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 64,
+    "name": "Liverpool FC",
+    "tla": "LIV",
+    "logo": "https://crests.football-data.org/64.png",
+    "form": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "W"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-05-24",
+        "home": "Liverpool FC",
+        "away": "Brentford FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2025-10-25",
+        "home": "Brentford FC",
+        "away": "Liverpool FC",
+        "score": "3-2",
+        "result": "W"
+      },
+      {
+        "date": "2025-01-18",
+        "home": "Brentford FC",
+        "away": "Liverpool FC",
+        "score": "0-2",
+        "result": "L"
+      },
+      {
+        "date": "2024-08-25",
+        "home": "Liverpool FC",
+        "away": "Brentford FC",
+        "score": "2-0",
+        "result": "L"
+      },
+      {
+        "date": "2024-02-17",
+        "home": "Brentford FC",
+        "away": "Liverpool FC",
+        "score": "1-4",
+        "result": "L"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-10-17T01:05:58.735943+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
