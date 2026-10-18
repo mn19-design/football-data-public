@@ -1,0 +1,93 @@
+{
+  "fixture_id": 560605,
+  "date": "2026-10-18T13:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 341,
+    "name": "Leeds United FC",
+    "tla": "LEE",
+    "logo": "https://crests.football-data.org/341.png",
+    "form": [
+      "D",
+      "D",
+      "W",
+      "D",
+      "L"
+    ],
+    "restDays": 8,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 66,
+    "name": "Manchester United FC",
+    "tla": "MUN",
+    "logo": "https://crests.football-data.org/66.png",
+    "form": [
+      "W",
+      "L",
+      "D",
+      "D",
+      "L"
+    ],
+    "restDays": 5,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-04-13",
+        "home": "Manchester United FC",
+        "away": "Leeds United FC",
+        "score": "1-2",
+        "result": "W"
+      },
+      {
+        "date": "2026-01-04",
+        "home": "Leeds United FC",
+        "away": "Manchester United FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2023-02-12",
+        "home": "Leeds United FC",
+        "away": "Manchester United FC",
+        "score": "0-2",
+        "result": "L"
+      },
+      {
+        "date": "2023-02-08",
+        "home": "Manchester United FC",
+        "away": "Leeds United FC",
+        "score": "2-2",
+        "result": "D"
+      },
+      {
+        "date": "2022-02-20",
+        "home": "Leeds United FC",
+        "away": "Manchester United FC",
+        "score": "2-4",
+        "result": "L"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-10-18T00:40:35.990836+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
