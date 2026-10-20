@@ -1,0 +1,72 @@
+{
+  "fixture_id": 575363,
+  "date": "2026-10-20T19:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "CL",
+    "name": "UEFA Champions League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 64,
+    "name": "Liverpool FC",
+    "tla": "LIV",
+    "logo": "https://crests.football-data.org/64.png",
+    "form": [
+      "D",
+      "W",
+      "L",
+      "W",
+      "W"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 94,
+    "name": "Villarreal CF",
+    "tla": "VIL",
+    "logo": "https://crests.football-data.org/94.png",
+    "form": [
+      "W",
+      "W",
+      "L",
+      "W",
+      "D"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 2,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2022-05-03",
+        "home": "Villarreal CF",
+        "away": "Liverpool FC",
+        "score": "2-3",
+        "result": "W"
+      },
+      {
+        "date": "2022-04-27",
+        "home": "Liverpool FC",
+        "away": "Villarreal CF",
+        "score": "2-0",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-10-20T01:36:05.516728+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
