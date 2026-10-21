@@ -1,0 +1,83 @@
+{
+  "fixture_id": 575371,
+  "date": "2026-10-21T19:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "CL",
+    "name": "UEFA Champions League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 108,
+    "name": "FC Internazionale Milano",
+    "tla": "INT",
+    "logo": "https://crests.football-data.org/108.png",
+    "form": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "W"
+    ],
+    "restDays": 4,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 1887,
+    "name": "FK Shakhtar Donetsk",
+    "tla": "SHD",
+    "logo": "https://crests.football-data.org/1887.png",
+    "form": [
+      "D",
+      "W"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2021-11-24",
+        "home": "FC Internazionale Milano",
+        "away": "FK Shakhtar Donetsk",
+        "score": "2-0",
+        "result": "W"
+      },
+      {
+        "date": "2021-09-28",
+        "home": "FK Shakhtar Donetsk",
+        "away": "FC Internazionale Milano",
+        "score": "0-0",
+        "result": "D"
+      },
+      {
+        "date": "2020-12-09",
+        "home": "FC Internazionale Milano",
+        "away": "FK Shakhtar Donetsk",
+        "score": "0-0",
+        "result": "D"
+      },
+      {
+        "date": "2020-10-27",
+        "home": "FK Shakhtar Donetsk",
+        "away": "FC Internazionale Milano",
+        "score": "0-0",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-10-21T01:19:31.789604+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

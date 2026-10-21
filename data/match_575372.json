@@ -1,0 +1,79 @@
+{
+  "fixture_id": 575372,
+  "date": "2026-10-21T19:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "CL",
+    "name": "UEFA Champions League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "tla": "FCB",
+    "logo": "https://crests.football-data.org/5.png",
+    "form": [
+      "W",
+      "W",
+      "D",
+      "D",
+      "W"
+    ],
+    "restDays": 4,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 57,
+    "name": "Arsenal FC",
+    "tla": "ARS",
+    "logo": "https://crests.football-data.org/57.png",
+    "form": [
+      "W",
+      "L",
+      "W",
+      "W",
+      "W"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2025-11-26",
+        "home": "Arsenal FC",
+        "away": "FC Bayern München",
+        "score": "3-1",
+        "result": "L"
+      },
+      {
+        "date": "2024-04-17",
+        "home": "FC Bayern München",
+        "away": "Arsenal FC",
+        "score": "1-0",
+        "result": "W"
+      },
+      {
+        "date": "2024-04-09",
+        "home": "Arsenal FC",
+        "away": "FC Bayern München",
+        "score": "2-2",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-10-21T01:19:31.789604+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
