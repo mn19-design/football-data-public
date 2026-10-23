@@ -1,15 +1,48 @@
 {
-  "generated_at": "2026-10-22T01:16:10.712851+00:00",
+  "generated_at": "2026-10-23T01:15:17.844708+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 0,
-  "fixtures": []
+  "count": 1,
+  "fixtures": [
+    {
+      "id": 560620,
+      "date": "2026-10-23T19:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 8,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 349,
+        "name": "Ipswich Town FC",
+        "tla": "IPS",
+        "logo": "https://crests.football-data.org/349.png"
+      },
+      "away": {
+        "id": 351,
+        "name": "Nottingham Forest FC",
+        "tla": "NOT",
+        "logo": "https://crests.football-data.org/351.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
 }
