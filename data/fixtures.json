@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-23T01:15:17.844708+00:00",
+  "generated_at": "2026-10-24T01:23:34.083235+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-10-23",
-    "2026-10-24"
+    "2026-10-24",
+    "2026-10-25"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 1,
+  "count": 4,
   "fixtures": [
     {
-      "id": 560620,
-      "date": "2026-10-23T19:00:00Z",
+      "id": 560614,
+      "date": "2026-10-24T11:30:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 8,
@@ -28,16 +28,112 @@
         "season": "2026"
       },
       "home": {
-        "id": 349,
-        "name": "Ipswich Town FC",
-        "tla": "IPS",
-        "logo": "https://crests.football-data.org/349.png"
+        "id": 58,
+        "name": "Aston Villa FC",
+        "tla": "AVL",
+        "logo": "https://crests.football-data.org/58.png"
       },
       "away": {
-        "id": 351,
-        "name": "Nottingham Forest FC",
-        "tla": "NOT",
-        "logo": "https://crests.football-data.org/351.png"
+        "id": 65,
+        "name": "Manchester City FC",
+        "tla": "MCI",
+        "logo": "https://crests.football-data.org/65.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560616,
+      "date": "2026-10-24T14:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 8,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "tla": "ARS",
+        "logo": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 62,
+        "name": "Everton FC",
+        "tla": "EVE",
+        "logo": "https://crests.football-data.org/62.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560618,
+      "date": "2026-10-24T14:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 8,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 1076,
+        "name": "Coventry City FC",
+        "tla": "COV",
+        "logo": "https://crests.football-data.org/1076.png"
+      },
+      "away": {
+        "id": 63,
+        "name": "Fulham FC",
+        "tla": "FUL",
+        "logo": "https://crests.football-data.org/63.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560617,
+      "date": "2026-10-24T16:30:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 8,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "tla": "CHE",
+        "logo": "https://crests.football-data.org/61.png"
+      },
+      "away": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "tla": "TOT",
+        "logo": "https://crests.football-data.org/73.png"
       },
       "goals": {
         "home": null,
