@@ -1,0 +1,93 @@
+{
+  "fixture_id": 560625,
+  "date": "2026-10-31T15:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 1076,
+    "name": "Coventry City FC",
+    "tla": "COV",
+    "logo": "https://crests.football-data.org/1076.png",
+    "form": [
+      "L",
+      "W",
+      "W",
+      "L",
+      "L"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 71,
+    "name": "Sunderland AFC",
+    "tla": "SUN",
+    "logo": "https://crests.football-data.org/71.png",
+    "form": [
+      "L",
+      "L",
+      "L",
+      "L",
+      "D"
+    ],
+    "restDays": 6,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2025-05-13",
+        "home": "Sunderland AFC",
+        "away": "Coventry City FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2025-05-09",
+        "home": "Coventry City FC",
+        "away": "Sunderland AFC",
+        "score": "1-2",
+        "result": "L"
+      },
+      {
+        "date": "2025-03-15",
+        "home": "Coventry City FC",
+        "away": "Sunderland AFC",
+        "score": "3-0",
+        "result": "W"
+      },
+      {
+        "date": "2024-11-09",
+        "home": "Sunderland AFC",
+        "away": "Coventry City FC",
+        "score": "2-2",
+        "result": "D"
+      },
+      {
+        "date": "2023-12-23",
+        "home": "Sunderland AFC",
+        "away": "Coventry City FC",
+        "score": "0-3",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-10-31T02:02:10.131928+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
