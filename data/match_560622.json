@@ -1,0 +1,86 @@
+{
+  "fixture_id": 560622,
+  "date": "2026-11-02T20:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 67,
+    "name": "Newcastle United FC",
+    "tla": "NEW",
+    "logo": "https://crests.football-data.org/67.png",
+    "form": [
+      "L",
+      "W",
+      "L",
+      "L",
+      "W"
+    ],
+    "restDays": 8,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 62,
+    "name": "Everton FC",
+    "tla": "EVE",
+    "logo": "https://crests.football-data.org/62.png",
+    "form": [
+      "D",
+      "W",
+      "D",
+      "L",
+      "L"
+    ],
+    "restDays": 9,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-02-28",
+        "home": "Newcastle United FC",
+        "away": "Everton FC",
+        "score": "2-3",
+        "result": "L"
+      },
+      {
+        "date": "2025-11-29",
+        "home": "Everton FC",
+        "away": "Newcastle United FC",
+        "score": "1-4",
+        "result": "W"
+      },
+      {
+        "date": "2025-05-25",
+        "home": "Newcastle United FC",
+        "away": "Everton FC",
+        "score": "0-1",
+        "result": "L"
+      },
+      {
+        "date": "2024-10-05",
+        "home": "Everton FC",
+        "away": "Newcastle United FC",
+        "score": "0-0",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-11-02T02:07:59.332273+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
