@@ -1,0 +1,93 @@
+{
+  "fixture_id": 560632,
+  "date": "2026-11-07T12:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 341,
+    "name": "Leeds United FC",
+    "tla": "LEE",
+    "logo": "https://crests.football-data.org/341.png",
+    "form": [
+      "D",
+      "L",
+      "D",
+      "D",
+      "L"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 73,
+    "name": "Tottenham Hotspur FC",
+    "tla": "TOT",
+    "logo": "https://crests.football-data.org/73.png",
+    "form": [
+      "L",
+      "D",
+      "W",
+      "W",
+      "W"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2026-05-11",
+        "home": "Tottenham Hotspur FC",
+        "away": "Leeds United FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2025-10-04",
+        "home": "Leeds United FC",
+        "away": "Tottenham Hotspur FC",
+        "score": "1-2",
+        "result": "L"
+      },
+      {
+        "date": "2023-05-28",
+        "home": "Leeds United FC",
+        "away": "Tottenham Hotspur FC",
+        "score": "1-4",
+        "result": "L"
+      },
+      {
+        "date": "2022-11-12",
+        "home": "Tottenham Hotspur FC",
+        "away": "Leeds United FC",
+        "score": "4-3",
+        "result": "L"
+      },
+      {
+        "date": "2022-02-26",
+        "home": "Leeds United FC",
+        "away": "Tottenham Hotspur FC",
+        "score": "0-4",
+        "result": "L"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-11-07T02:33:07.471480+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}
