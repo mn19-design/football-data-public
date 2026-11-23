@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-22T02:50:28.776737+00:00",
+  "generated_at": "2026-11-23T03:31:33.878940+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 2,
+  "count": 1,
   "fixtures": [
     {
-      "id": 560646,
-      "date": "2026-11-22T14:00:00Z",
+      "id": 560649,
+      "date": "2026-11-23T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 11,
@@ -28,48 +28,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 322,
-        "name": "Hull City AFC",
-        "tla": "HUL",
-        "logo": "https://crests.football-data.org/322.png"
+        "id": 402,
+        "name": "Brentford FC",
+        "tla": "BRE",
+        "logo": "https://crests.football-data.org/402.png"
       },
       "away": {
-        "id": 397,
-        "name": "Brighton & Hove Albion FC",
-        "tla": "BHA",
-        "logo": "https://crests.football-data.org/397.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 560645,
-      "date": "2026-11-22T16:30:00Z",
-      "status": "NS",
-      "status_text": "TIMED",
-      "matchday": 11,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "venue": null,
-      "league": {
-        "code": "PL",
-        "name": "Premier League",
-        "country": "",
-        "season": "2026"
-      },
-      "home": {
-        "id": 64,
-        "name": "Liverpool FC",
-        "tla": "LIV",
-        "logo": "https://crests.football-data.org/64.png"
-      },
-      "away": {
-        "id": 66,
-        "name": "Manchester United FC",
-        "tla": "MUN",
-        "logo": "https://crests.football-data.org/66.png"
+        "id": 62,
+        "name": "Everton FC",
+        "tla": "EVE",
+        "logo": "https://crests.football-data.org/62.png"
       },
       "goals": {
         "home": null,
