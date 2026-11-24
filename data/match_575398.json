@@ -1,0 +1,65 @@
+{
+  "fixture_id": 575398,
+  "date": "2026-11-24T20:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "CL",
+    "name": "UEFA Champions League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 65,
+    "name": "Manchester City FC",
+    "tla": "MCI",
+    "logo": "https://crests.football-data.org/65.png",
+    "form": [
+      "L",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 113,
+    "name": "SSC Napoli",
+    "tla": "NAP",
+    "logo": "https://crests.football-data.org/113.png",
+    "form": [
+      "W",
+      "L",
+      "L",
+      "D",
+      "W"
+    ],
+    "restDays": 3,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2025-09-18",
+        "home": "Manchester City FC",
+        "away": "SSC Napoli",
+        "score": "2-0",
+        "result": "W"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-11-24T06:47:11.990603+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

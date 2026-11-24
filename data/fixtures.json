@@ -1,43 +1,299 @@
 {
-  "generated_at": "2026-11-23T03:31:33.878940+00:00",
+  "generated_at": "2026-11-24T06:47:11.882064+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-11-23",
-    "2026-11-24"
+    "2026-11-24",
+    "2026-11-25"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 1,
+  "count": 9,
   "fixtures": [
     {
-      "id": 560649,
-      "date": "2026-11-23T20:00:00Z",
+      "id": 575396,
+      "date": "2026-11-24T17:45:00Z",
       "status": "NS",
       "status_text": "TIMED",
-      "matchday": 11,
-      "stage": "REGULAR_SEASON",
+      "matchday": 5,
+      "stage": "LEAGUE_STAGE",
       "group": null,
       "venue": null,
       "league": {
-        "code": "PL",
-        "name": "Premier League",
+        "code": "CL",
+        "name": "UEFA Champions League",
         "country": "",
         "season": "2026"
       },
       "home": {
-        "id": 402,
-        "name": "Brentford FC",
-        "tla": "BRE",
-        "logo": "https://crests.football-data.org/402.png"
+        "id": 5721,
+        "name": "FK Bodø/Glimt",
+        "tla": "FK",
+        "logo": "https://crests.football-data.org/5721.png"
       },
       "away": {
-        "id": 62,
-        "name": "Everton FC",
-        "tla": "EVE",
-        "logo": "https://crests.football-data.org/62.png"
+        "id": 2016,
+        "name": "LASK Linz",
+        "tla": "LIN",
+        "logo": "https://crests.football-data.org/2016.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575395,
+      "date": "2026-11-24T17:45:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 5,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 610,
+        "name": "Galatasaray SK",
+        "tla": "GAL",
+        "logo": "https://crests.football-data.org/610.png"
+      },
+      "away": {
+        "id": 58,
+        "name": "Aston Villa FC",
+        "tla": "AVL",
+        "logo": "https://crests.football-data.org/58.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575400,
+      "date": "2026-11-24T20:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 5,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 675,
+        "name": "Feyenoord Rotterdam",
+        "tla": "FEY",
+        "logo": "https://crests.football-data.org/675.png"
+      },
+      "away": {
+        "id": 503,
+        "name": "FC Porto",
+        "tla": "FCP",
+        "logo": "https://crests.football-data.org/503.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575402,
+      "date": "2026-11-24T20:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 5,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 721,
+        "name": "RB Leipzig",
+        "tla": "RBL",
+        "logo": "https://crests.football-data.org/721.png"
+      },
+      "away": {
+        "id": 546,
+        "name": "Racing Club de Lens",
+        "tla": "RCL",
+        "logo": "https://crests.football-data.org/546.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575398,
+      "date": "2026-11-24T20:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 5,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 65,
+        "name": "Manchester City FC",
+        "tla": "MCI",
+        "logo": "https://crests.football-data.org/65.png"
+      },
+      "away": {
+        "id": 113,
+        "name": "SSC Napoli",
+        "tla": "NAP",
+        "logo": "https://crests.football-data.org/113.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575399,
+      "date": "2026-11-24T20:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 5,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "tla": "ARS",
+        "logo": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "tla": "BVB",
+        "logo": "https://crests.football-data.org/4.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575401,
+      "date": "2026-11-24T20:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 5,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 7509,
+        "name": "ŠK Slovan Bratislava",
+        "tla": "SBA",
+        "logo": "https://crests.football-data.org/7509.png"
+      },
+      "away": {
+        "id": 90,
+        "name": "Real Betis Balompié",
+        "tla": "BET",
+        "logo": "https://crests.football-data.org/90.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575397,
+      "date": "2026-11-24T20:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 5,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "tla": "RMA",
+        "logo": "https://crests.football-data.org/86.png"
+      },
+      "away": {
+        "id": 674,
+        "name": "PSV",
+        "tla": "PSV",
+        "logo": "https://crests.football-data.org/674.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 575403,
+      "date": "2026-11-24T20:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 5,
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "CL",
+        "name": "UEFA Champions League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 7397,
+        "name": "Como 1907",
+        "tla": "COM",
+        "logo": "https://crests.football-data.org/7397.png"
+      },
+      "away": {
+        "id": 1899,
+        "name": "PAE AEK",
+        "tla": "AEK",
+        "logo": "https://crests.football-data.org/1899.png"
       },
       "goals": {
         "home": null,
