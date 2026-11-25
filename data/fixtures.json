@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-24T06:47:11.882064+00:00",
+  "generated_at": "2026-11-25T05:15:10.946608+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
   ],
   "competitions": [
     "WC",
@@ -13,8 +13,8 @@
   "count": 9,
   "fixtures": [
     {
-      "id": 575396,
-      "date": "2026-11-24T17:45:00Z",
+      "id": 575404,
+      "date": "2026-11-25T17:45:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 5,
@@ -28,16 +28,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 5721,
-        "name": "FK Bodø/Glimt",
-        "tla": "FK",
-        "logo": "https://crests.football-data.org/5721.png"
+        "id": 10233,
+        "name": "Sabah FK",
+        "tla": "SAB",
+        "logo": "https://crests.football-data.org/10233.png"
       },
       "away": {
-        "id": 2016,
-        "name": "LASK Linz",
-        "tla": "LIN",
-        "logo": "https://crests.football-data.org/2016.png"
+        "id": 81,
+        "name": "FC Barcelona",
+        "tla": "FCB",
+        "logo": "https://crests.football-data.org/81.png"
       },
       "goals": {
         "home": null,
@@ -45,8 +45,8 @@
       }
     },
     {
-      "id": 575395,
-      "date": "2026-11-24T17:45:00Z",
+      "id": 575405,
+      "date": "2026-11-25T17:45:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 5,
@@ -60,16 +60,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 610,
-        "name": "Galatasaray SK",
-        "tla": "GAL",
-        "logo": "https://crests.football-data.org/610.png"
+        "id": 930,
+        "name": "SK Slavia Praha",
+        "tla": "SLP",
+        "logo": "https://crests.football-data.org/930.png"
       },
       "away": {
-        "id": 58,
-        "name": "Aston Villa FC",
-        "tla": "AVL",
-        "logo": "https://crests.football-data.org/58.png"
+        "id": 94,
+        "name": "Villarreal CF",
+        "tla": "VIL",
+        "logo": "https://crests.football-data.org/94.png"
       },
       "goals": {
         "home": null,
@@ -77,8 +77,8 @@
       }
     },
     {
-      "id": 575400,
-      "date": "2026-11-24T20:00:00Z",
+      "id": 575410,
+      "date": "2026-11-25T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 5,
@@ -92,16 +92,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 675,
-        "name": "Feyenoord Rotterdam",
-        "tla": "FEY",
-        "logo": "https://crests.football-data.org/675.png"
+        "id": 521,
+        "name": "Lille OSC",
+        "tla": "LIL",
+        "logo": "https://crests.football-data.org/521.png"
       },
       "away": {
-        "id": 503,
-        "name": "FC Porto",
-        "tla": "FCP",
-        "logo": "https://crests.football-data.org/503.png"
+        "id": 5,
+        "name": "FC Bayern München",
+        "tla": "FCB",
+        "logo": "https://crests.football-data.org/5.png"
       },
       "goals": {
         "home": null,
@@ -109,8 +109,8 @@
       }
     },
     {
-      "id": 575402,
-      "date": "2026-11-24T20:00:00Z",
+      "id": 575406,
+      "date": "2026-11-25T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 5,
@@ -124,16 +124,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 721,
-        "name": "RB Leipzig",
-        "tla": "RBL",
-        "logo": "https://crests.football-data.org/721.png"
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "tla": "INT",
+        "logo": "https://crests.football-data.org/108.png"
       },
       "away": {
-        "id": 546,
-        "name": "Racing Club de Lens",
-        "tla": "RCL",
-        "logo": "https://crests.football-data.org/546.png"
+        "id": 10,
+        "name": "VfB Stuttgart",
+        "tla": "VFB",
+        "logo": "https://crests.football-data.org/10.png"
       },
       "goals": {
         "home": null,
@@ -141,8 +141,8 @@
       }
     },
     {
-      "id": 575398,
-      "date": "2026-11-24T20:00:00Z",
+      "id": 575412,
+      "date": "2026-11-25T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 5,
@@ -156,16 +156,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 65,
-        "name": "Manchester City FC",
-        "tla": "MCI",
-        "logo": "https://crests.football-data.org/65.png"
+        "id": 1887,
+        "name": "FK Shakhtar Donetsk",
+        "tla": "SHD",
+        "logo": "https://crests.football-data.org/1887.png"
       },
       "away": {
-        "id": 113,
-        "name": "SSC Napoli",
-        "tla": "NAP",
-        "logo": "https://crests.football-data.org/113.png"
+        "id": 613,
+        "name": "Fenerbahçe SK",
+        "tla": "FEN",
+        "logo": "https://crests.football-data.org/613.png"
       },
       "goals": {
         "home": null,
@@ -173,8 +173,8 @@
       }
     },
     {
-      "id": 575399,
-      "date": "2026-11-24T20:00:00Z",
+      "id": 575408,
+      "date": "2026-11-25T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 5,
@@ -188,16 +188,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 57,
-        "name": "Arsenal FC",
-        "tla": "ARS",
-        "logo": "https://crests.football-data.org/57.png"
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "tla": "PSG",
+        "logo": "https://crests.football-data.org/524.png"
       },
       "away": {
-        "id": 4,
-        "name": "Borussia Dortmund",
-        "tla": "BVB",
-        "logo": "https://crests.football-data.org/4.png"
+        "id": 100,
+        "name": "AS Roma",
+        "tla": "ROM",
+        "logo": "https://crests.football-data.org/100.png"
       },
       "goals": {
         "home": null,
@@ -205,8 +205,8 @@
       }
     },
     {
-      "id": 575401,
-      "date": "2026-11-24T20:00:00Z",
+      "id": 575409,
+      "date": "2026-11-25T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 5,
@@ -220,16 +220,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 7509,
-        "name": "ŠK Slovan Bratislava",
-        "tla": "SBA",
-        "logo": "https://crests.football-data.org/7509.png"
+        "id": 851,
+        "name": "Club Brugge KV",
+        "tla": "BRU",
+        "logo": "https://crests.football-data.org/851.png"
       },
       "away": {
-        "id": 90,
-        "name": "Real Betis Balompié",
-        "tla": "BET",
-        "logo": "https://crests.football-data.org/90.png"
+        "id": 64,
+        "name": "Liverpool FC",
+        "tla": "LIV",
+        "logo": "https://crests.football-data.org/64.png"
       },
       "goals": {
         "home": null,
@@ -237,8 +237,8 @@
       }
     },
     {
-      "id": 575397,
-      "date": "2026-11-24T20:00:00Z",
+      "id": 575411,
+      "date": "2026-11-25T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 5,
@@ -252,16 +252,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 86,
-        "name": "Real Madrid CF",
-        "tla": "RMA",
-        "logo": "https://crests.football-data.org/86.png"
+        "id": 498,
+        "name": "Sporting Clube de Portugal",
+        "tla": "SPO",
+        "logo": "https://crests.football-data.org/498.png"
       },
       "away": {
-        "id": 674,
-        "name": "PSV",
-        "tla": "PSV",
-        "logo": "https://crests.football-data.org/674.png"
+        "id": 66,
+        "name": "Manchester United FC",
+        "tla": "MUN",
+        "logo": "https://crests.football-data.org/66.png"
       },
       "goals": {
         "home": null,
@@ -269,8 +269,8 @@
       }
     },
     {
-      "id": 575403,
-      "date": "2026-11-24T20:00:00Z",
+      "id": 575407,
+      "date": "2026-11-25T20:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 5,
@@ -284,16 +284,16 @@
         "season": "2026"
       },
       "home": {
-        "id": 7397,
-        "name": "Como 1907",
-        "tla": "COM",
-        "logo": "https://crests.football-data.org/7397.png"
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "tla": "ATL",
+        "logo": "https://crests.football-data.org/78.png"
       },
       "away": {
-        "id": 1899,
-        "name": "PAE AEK",
-        "tla": "AEK",
-        "logo": "https://crests.football-data.org/1899.png"
+        "id": 5720,
+        "name": "Viking FK",
+        "tla": "VIK",
+        "logo": "https://crests.football-data.org/5720.png"
       },
       "goals": {
         "home": null,
