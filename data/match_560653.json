@@ -1,0 +1,72 @@
+{
+  "fixture_id": 560653,
+  "date": "2026-11-28T17:30:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 349,
+    "name": "Ipswich Town FC",
+    "tla": "IPS",
+    "logo": "https://crests.football-data.org/349.png",
+    "form": [
+      "L",
+      "D",
+      "D",
+      "L",
+      "L"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 58,
+    "name": "Aston Villa FC",
+    "tla": "AVL",
+    "logo": "https://crests.football-data.org/58.png",
+    "form": [
+      "D",
+      "L",
+      "D",
+      "D",
+      "L"
+    ],
+    "restDays": 4,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2025-02-15",
+        "home": "Aston Villa FC",
+        "away": "Ipswich Town FC",
+        "score": "1-1",
+        "result": "D"
+      },
+      {
+        "date": "2024-09-29",
+        "home": "Ipswich Town FC",
+        "away": "Aston Villa FC",
+        "score": "2-2",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-11-28T04:33:23.851679+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

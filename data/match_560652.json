@@ -1,0 +1,86 @@
+{
+  "fixture_id": 560652,
+  "date": "2026-11-28T15:00:00Z",
+  "status": "NS",
+  "venue": null,
+  "league": {
+    "code": "PL",
+    "name": "Premier League",
+    "country": "",
+    "season": "2026"
+  },
+  "home": {
+    "id": 341,
+    "name": "Leeds United FC",
+    "tla": "LEE",
+    "logo": "https://crests.football-data.org/341.png",
+    "form": [
+      "D",
+      "D",
+      "L",
+      "W",
+      "W"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "away": {
+    "id": 1076,
+    "name": "Coventry City FC",
+    "tla": "COV",
+    "logo": "https://crests.football-data.org/1076.png",
+    "form": [
+      "L",
+      "L",
+      "W",
+      "L",
+      "W"
+    ],
+    "restDays": 7,
+    "players": [],
+    "lineup_confirmed": false
+  },
+  "h2h": {
+    "w": 0,
+    "d": 5,
+    "l": 0,
+    "last5": [
+      {
+        "date": "2025-02-05",
+        "home": "Coventry City FC",
+        "away": "Leeds United FC",
+        "score": "0-2",
+        "result": "W"
+      },
+      {
+        "date": "2024-09-28",
+        "home": "Leeds United FC",
+        "away": "Coventry City FC",
+        "score": "3-0",
+        "result": "W"
+      },
+      {
+        "date": "2024-04-06",
+        "home": "Coventry City FC",
+        "away": "Leeds United FC",
+        "score": "2-1",
+        "result": "L"
+      },
+      {
+        "date": "2023-12-16",
+        "home": "Leeds United FC",
+        "away": "Coventry City FC",
+        "score": "1-1",
+        "result": "D"
+      }
+    ]
+  },
+  "weather": "clear",
+  "generated_at": "2026-11-28T04:33:23.851679+00:00",
+  "data_notes": {
+    "injuries": "PL：FPL 官方 API；其他聯賽：無免費來源",
+    "lineup": "免費方案不含陣容資料",
+    "attrs": "球員六維為預設值，待 FIFA CSV 匯入後覆蓋"
+  }
+}

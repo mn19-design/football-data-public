@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-27T04:48:14.355145+00:00",
+  "generated_at": "2026-11-28T04:33:22.532509+00:00",
   "source": "football-data.org",
   "dates": [
-    "2026-11-27",
-    "2026-11-28"
+    "2026-11-28",
+    "2026-11-29"
   ],
   "competitions": [
     "WC",
     "PL",
     "CL"
   ],
-  "count": 1,
+  "count": 3,
   "fixtures": [
     {
-      "id": 560658,
-      "date": "2026-11-27T20:00:00Z",
+      "id": 560652,
+      "date": "2026-11-28T15:00:00Z",
       "status": "NS",
       "status_text": "TIMED",
       "matchday": 12,
@@ -28,16 +28,80 @@
         "season": "2026"
       },
       "home": {
-        "id": 351,
-        "name": "Nottingham Forest FC",
-        "tla": "NOT",
-        "logo": "https://crests.football-data.org/351.png"
+        "id": 341,
+        "name": "Leeds United FC",
+        "tla": "LEE",
+        "logo": "https://crests.football-data.org/341.png"
       },
       "away": {
-        "id": 61,
-        "name": "Chelsea FC",
-        "tla": "CHE",
-        "logo": "https://crests.football-data.org/61.png"
+        "id": 1076,
+        "name": "Coventry City FC",
+        "tla": "COV",
+        "logo": "https://crests.football-data.org/1076.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560655,
+      "date": "2026-11-28T15:00:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 12,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 66,
+        "name": "Manchester United FC",
+        "tla": "MUN",
+        "logo": "https://crests.football-data.org/66.png"
+      },
+      "away": {
+        "id": 402,
+        "name": "Brentford FC",
+        "tla": "BRE",
+        "logo": "https://crests.football-data.org/402.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": 560653,
+      "date": "2026-11-28T17:30:00Z",
+      "status": "NS",
+      "status_text": "TIMED",
+      "matchday": 12,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "venue": null,
+      "league": {
+        "code": "PL",
+        "name": "Premier League",
+        "country": "",
+        "season": "2026"
+      },
+      "home": {
+        "id": 349,
+        "name": "Ipswich Town FC",
+        "tla": "IPS",
+        "logo": "https://crests.football-data.org/349.png"
+      },
+      "away": {
+        "id": 58,
+        "name": "Aston Villa FC",
+        "tla": "AVL",
+        "logo": "https://crests.football-data.org/58.png"
       },
       "goals": {
         "home": null,
